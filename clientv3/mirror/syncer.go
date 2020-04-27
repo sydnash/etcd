@@ -18,7 +18,7 @@ package mirror
 import (
 	"context"
 
-	"github.com/coreos/etcd/clientv3"
+	"github.com/ozonru/etcd/clientv3"
 )
 
 const (

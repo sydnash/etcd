@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/coreos/etcd/etcdctl/ctlv2"
-	"github.com/coreos/etcd/etcdctl/ctlv3"
+	"github.com/ozonru/etcd/etcdctl/ctlv2"
+	"github.com/ozonru/etcd/etcdctl/ctlv3"
 )
 
 const (

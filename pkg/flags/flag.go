@@ -27,7 +27,7 @@ import (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/coreos/etcd", "pkg/flags")
+	plog = capnslog.NewPackageLogger("github.com/ozonru/etcd", "pkg/flags")
 )
 
 // DeprecatedFlag encapsulates a flag that may have been previously valid but

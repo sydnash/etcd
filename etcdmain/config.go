@@ -25,10 +25,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/coreos/etcd/embed"
-	"github.com/coreos/etcd/pkg/flags"
-	"github.com/coreos/etcd/pkg/types"
-	"github.com/coreos/etcd/version"
+	"github.com/ozonru/etcd/embed"
+	"github.com/ozonru/etcd/pkg/flags"
+	"github.com/ozonru/etcd/pkg/types"
+	"github.com/ozonru/etcd/version"
 
 	"sigs.k8s.io/yaml"
 )

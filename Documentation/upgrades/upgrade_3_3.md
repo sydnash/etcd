@@ -34,7 +34,7 @@ Changed `--auto-compaction-retention` flag to [accept string values](https://git
 Before and after (e.g. [k8s.io/kubernetes/test/e2e_node/services/etcd.go](https://github.com/kubernetes/kubernetes/blob/release-1.8/test/e2e_node/services/etcd.go#L50-L55))
 
 ```diff
-import "github.com/coreos/etcd/etcdserver"
+import "github.com/ozonru/etcd/etcdserver"
 
 type EtcdServer struct {
 	*etcdserver.EtcdServer
@@ -85,7 +85,7 @@ From v3.3, gRPC server logs are disabled by default.
 **Note that `embed.Config.SetupLogging` method has been deprecated in v3.4. Please see [v3.4 upgrade guide](https://github.com/etcd-io/etcd/blob/master/Documentation/upgrades/upgrade_3_4.md) for more details.**
 
 ```go
-import "github.com/coreos/etcd/embed"
+import "github.com/ozonru/etcd/embed"
 
 cfg := &embed.Config{Debug: false}
 cfg.SetupLogging()
@@ -95,7 +95,7 @@ Set `embed.Config.Debug` field to `true` to enable gRPC server logs.
 
 #### Changed `/health` endpoint response
 
-Previously, `[endpoint]:[client-port]/health` returned manually marshaled JSON value. 3.3 now defines [`etcdhttp.Health`](https://godoc.org/github.com/coreos/etcd/etcdserver/api/etcdhttp#Health) struct.
+Previously, `[endpoint]:[client-port]/health` returned manually marshaled JSON value. 3.3 now defines [`etcdhttp.Health`](https://godoc.org/github.com/ozonru/etcd/etcdserver/api/etcdhttp#Health) struct.
 
 Note that in v3.3.0-rc.0, v3.3.0-rc.1, and v3.3.0-rc.2, `etcdhttp.Health` has boolean type `"health"` and `"errors"` fields. For backward compatibilities, we reverted `"health"` field to `string` type and removed `"errors"` field. Further health information will be provided in separate APIs.
 
@@ -140,8 +140,8 @@ etcdctl put foo [LARGE VALUE...]
 Or configure `embed.Config.MaxRequestBytes` field:
 
 ```go
-import "github.com/coreos/etcd/embed"
-import "github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"
+import "github.com/ozonru/etcd/embed"
+import "github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
 
 // limit requests to 5 MiB
 cfg := embed.NewConfig()
@@ -162,7 +162,7 @@ etcd --max-request-bytes 1048576
 ```
 
 ```go
-import "github.com/coreos/etcd/clientv3"
+import "github.com/ozonru/etcd/clientv3"
 
 cli, _ := clientv3.New(clientv3.Config{
     Endpoints: []string{"127.0.0.1:2379"},
@@ -193,7 +193,7 @@ _, err = cli.Get(ctx, "foo", clientv3.WithPrefix())
 err.Error() == "rpc error: code = ResourceExhausted desc = grpc: received message larger than max (5240509 vs. 3145728)"
 ```
 
-**If not specified, client-side send limit defaults to 2 MiB (1.5 MiB + gRPC overhead bytes) and receive limit to `math.MaxInt32`**. Please see [clientv3 godoc](https://godoc.org/github.com/coreos/etcd/clientv3#Config) for more detail.
+**If not specified, client-side send limit defaults to 2 MiB (1.5 MiB + gRPC overhead bytes) and receive limit to `math.MaxInt32`**. Please see [clientv3 godoc](https://godoc.org/github.com/ozonru/etcd/clientv3#Config) for more detail.
 
 #### Changed raw gRPC client wrapper function signatures
 
@@ -283,7 +283,7 @@ lease 2d8257079fa1bc0c already expired
 
 #### Changed `golang.org/x/net/context` imports
 
-`clientv3` has deprecated `golang.org/x/net/context`. If a project vendors `golang.org/x/net/context` in other code (e.g. etcd generated protocol buffer code) and imports `github.com/coreos/etcd/clientv3`, it requires Go 1.9+ to compile.
+`clientv3` has deprecated `golang.org/x/net/context`. If a project vendors `golang.org/x/net/context` in other code (e.g. etcd generated protocol buffer code) and imports `github.com/ozonru/etcd/clientv3`, it requires Go 1.9+ to compile.
 
 Before
 
@@ -310,14 +310,14 @@ cli.Put(context.Background(), "f", "v")
 Before
 
 ```go
-import "github.com/coreos/etcd/clientv3"
+import "github.com/ozonru/etcd/clientv3"
 clientv3.SetLogger(log.New(os.Stderr, "grpc: ", 0))
 ```
 
 After
 
 ```go
-import "github.com/coreos/etcd/clientv3"
+import "github.com/ozonru/etcd/clientv3"
 import "google.golang.org/grpc/grpclog"
 clientv3.SetLogger(grpclog.NewLoggerV2(os.Stderr, os.Stderr, os.Stderr))
 

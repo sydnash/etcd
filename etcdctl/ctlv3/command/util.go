@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"regexp"
 
-	pb "github.com/coreos/etcd/mvcc/mvccpb"
+	pb "github.com/ozonru/etcd/mvcc/mvccpb"
 
 	"github.com/spf13/cobra"
 )

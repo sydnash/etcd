@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/mvcc/backend"
+	"github.com/ozonru/etcd/mvcc/backend"
 )
 
 const (

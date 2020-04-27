@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/client"
-	"github.com/coreos/etcd/etcdserver"
-	"github.com/coreos/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/client"
+	"github.com/ozonru/etcd/etcdserver"
+	"github.com/ozonru/etcd/pkg/testutil"
 
 	"github.com/coreos/pkg/capnslog"
 )
@@ -452,7 +452,7 @@ func TestRejectUnhealthyRemove(t *testing.T) {
 
 // TestRestartRemoved ensures that restarting removed member must exit
 // if 'initial-cluster-state' is set 'new' and old data directory still exists
-// (see https://github.com/coreos/etcd/issues/7512 for more).
+// (see https://github.com/ozonru/etcd/issues/7512 for more).
 func TestRestartRemoved(t *testing.T) {
 	defer testutil.AfterTest(t)
 

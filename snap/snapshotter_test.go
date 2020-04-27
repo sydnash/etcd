@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/raft/raftpb"
+	"github.com/ozonru/etcd/raft/raftpb"
 )
 
 var testSnap = &raftpb.Snapshot{

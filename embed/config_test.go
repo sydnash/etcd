@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/coreos/etcd/pkg/transport"
+	"github.com/ozonru/etcd/pkg/transport"
 
 	"sigs.k8s.io/yaml"
 )

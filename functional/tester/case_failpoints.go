@@ -21,7 +21,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/coreos/etcd/functional/rpcpb"
+	"github.com/ozonru/etcd/functional/rpcpb"
 )
 
 type failpointStats struct {

@@ -1,5 +1,5 @@
-hash: 0e1d25e62fc8b20a7a36771ff5efe7c0c56020d65dd9c0d74da9df41b63a53ee
-updated: 2020-04-27T14:41:09.451325+03:00
+hash: 10e32f884112864ffbb4943f2973c09e0cff3df95d0cb0d21fe9aa67bdd48d54
+updated: 2020-04-27T18:09:56.834151+03:00
 imports:
 - name: github.com/beorn7/perks
   version: 37c8de3658fcb183f997c4e13e8337516ab753e6

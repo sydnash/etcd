@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/coreos/etcd
+go_import_path: github.com/ozonru/etcd
 
 sudo: required
 

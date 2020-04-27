@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	lockpb "github.com/coreos/etcd/etcdserver/api/v3lock/v3lockpb"
-	pb "github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/coreos/etcd/pkg/testutil"
+	lockpb "github.com/ozonru/etcd/etcdserver/api/v3lock/v3lockpb"
+	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	"github.com/ozonru/etcd/pkg/testutil"
 )
 
 // TestV3LockLockWaiter tests that a client will wait for a lock, then acquire it

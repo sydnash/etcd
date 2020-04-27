@@ -31,7 +31,7 @@ export GOPATH=${PWD}/gopath.proto
 export GOBIN=${PWD}/bin
 export PATH="${GOBIN}:${PATH}"
 
-ETCD_IO_ROOT="${GOPATH}/src/github.com/coreos/etcd"
+ETCD_IO_ROOT="${GOPATH}/src/github.com/ozonru/etcd"
 ETCD_ROOT="${ETCD_IO_ROOT}/etcd"
 GOGOPROTO_ROOT="${GOPATH}/src/github.com/gogo/protobuf"
 SCHWAG_ROOT="${GOPATH}/src/github.com/hexfusion/schwag"

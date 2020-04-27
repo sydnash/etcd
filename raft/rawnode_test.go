@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/coreos/etcd/raft/raftpb"
+	"github.com/ozonru/etcd/raft/raftpb"
 )
 
 // TestRawNodeStep ensures that RawNode.Step ignore local message.
