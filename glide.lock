@@ -1,5 +1,5 @@
-hash: 3fece95d13153dbb91034bd2708f8f7a39510c682dfda4c3ff691f09a61a2fc1
-updated: 2019-08-19T20:45:29.93927922-07:00
+hash: 0e1d25e62fc8b20a7a36771ff5efe7c0c56020d65dd9c0d74da9df41b63a53ee
+updated: 2020-04-27T14:41:09.451325+03:00
 imports:
 - name: github.com/beorn7/perks
   version: 37c8de3658fcb183f997c4e13e8337516ab753e6
@@ -135,9 +135,9 @@ imports:
 - name: github.com/xiang90/probing
   version: 07dd2e8dfe18522e9c447ba95f2fe95262f63bb2
 - name: go.uber.org/atomic
-  version: df976f2515e274675050de7b3f42545de80594fd
+  version: 845920076a298bdb984fb0f1b86052e4ca0a281c
 - name: go.uber.org/multierr
-  version: 3c4937480c32f4c13a875a1829af76c98ca3d40a
+  version: b587143a48b62b01d337824eab43700af6ffe222
 - name: go.uber.org/zap
   version: 27376062155ad36be76b0f12cf1572a221d3a48c
   subpackages:
@@ -184,8 +184,10 @@ imports:
   - googleapis/api/annotations
   - googleapis/rpc/status
 - name: google.golang.org/grpc
-  version: 6eaf6f47437a6b4e2153a190160ef39a92c7eceb
+  version: f495f5b15ae7ccda3b38c53a1bfcde4c1a58a2bc
   subpackages:
+  - attributes
+  - backoff
   - balancer
   - balancer/base
   - balancer/roundrobin
@@ -203,10 +205,13 @@ imports:
   - internal/backoff
   - internal/balancerload
   - internal/binarylog
+  - internal/buffer
   - internal/channelz
   - internal/envconfig
   - internal/grpcrand
   - internal/grpcsync
+  - internal/resolver/dns
+  - internal/resolver/passthrough
   - internal/syscall
   - internal/transport
   - keepalive
