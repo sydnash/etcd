@@ -11,7 +11,9 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-
+//
+// DEPRECATED: don't use grpc discovery via package `grpcproxy`.
+//
 // Package naming provides an etcd-backed gRPC resolver for discovering gRPC services.
 //
 // To use, first import the packages:

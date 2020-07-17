@@ -30,6 +30,7 @@ import (
 )
 
 func TestClusterProxyMemberList(t *testing.T) {
+	t.Skip("deprecated")
 	defer testutil.AfterTest(t)
 
 	clus := integration.NewClusterV3(t, &integration.ClusterConfig{Size: 1})

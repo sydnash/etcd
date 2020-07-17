@@ -15,85 +15,19 @@
 package grpcproxy
 
 import (
-	"encoding/json"
-	"os"
-
 	"go.etcd.io/etcd/v3/clientv3"
-	"go.etcd.io/etcd/v3/clientv3/concurrency"
-	"go.etcd.io/etcd/v3/clientv3/naming"
 
 	"go.uber.org/zap"
-	"golang.org/x/time/rate"
-	gnaming "google.golang.org/grpc/naming"
 )
 
 // allow maximum 1 retry per second
 const registerRetryRate = 1
 
-// Register registers itself as a grpc-proxy server by writing prefixed-key
+// Register is deprecated! Do not use it.
+// Now it doesn't return a closer channel.
+//
+//
+// Registers itself as a grpc-proxy server by writing prefixed-key
 // with session of specified TTL (in seconds). The returned channel is closed
 // when the client's context is canceled.
-func Register(lg *zap.Logger, c *clientv3.Client, prefix string, addr string, ttl int) <-chan struct{} {
-	rm := rate.NewLimiter(rate.Limit(registerRetryRate), registerRetryRate)
-
-	donec := make(chan struct{})
-	go func() {
-		defer close(donec)
-
-		for rm.Wait(c.Ctx()) == nil {
-			ss, err := registerSession(lg, c, prefix, addr, ttl)
-			if err != nil {
-				lg.Warn("failed to create a session", zap.Error(err))
-				continue
-			}
-			select {
-			case <-c.Ctx().Done():
-				ss.Close()
-				return
-
-			case <-ss.Done():
-				lg.Warn("session expired; possible network partition or server restart")
-				lg.Warn("creating a new session to rejoin")
-				continue
-			}
-		}
-	}()
-
-	return donec
-}
-
-func registerSession(lg *zap.Logger, c *clientv3.Client, prefix string, addr string, ttl int) (*concurrency.Session, error) {
-	ss, err := concurrency.NewSession(c, concurrency.WithTTL(ttl))
-	if err != nil {
-		return nil, err
-	}
-
-	gr := &naming.GRPCResolver{Client: c}
-	if err = gr.Update(c.Ctx(), prefix, gnaming.Update{Op: gnaming.Add, Addr: addr, Metadata: getMeta()}, clientv3.WithLease(ss.Lease())); err != nil {
-		return nil, err
-	}
-
-	lg.Info(
-		"registered session with lease",
-		zap.String("addr", addr),
-		zap.Int("lease-ttl", ttl),
-	)
-	return ss, nil
-}
-
-// meta represents metadata of proxy register.
-type meta struct {
-	Name string `json:"name"`
-}
-
-func getMeta() string {
-	hostname, _ := os.Hostname()
-	bts, _ := json.Marshal(meta{Name: hostname})
-	return string(bts)
-}
-
-func decodeMeta(s string) (meta, error) {
-	m := meta{}
-	err := json.Unmarshal([]byte(s), &m)
-	return m, err
-}
+func Register(lg *zap.Logger, c *clientv3.Client, prefix string, addr string, ttl int) {}
