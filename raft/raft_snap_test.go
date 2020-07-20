@@ -17,7 +17,7 @@ package raft
 import (
 	"testing"
 
-	pb "go.etcd.io/etcd/v3/raft/raftpb"
+	pb "github.com/ozonru/etcd/raft/raftpb"
 )
 
 var (

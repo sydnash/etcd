@@ -17,8 +17,8 @@ package snap
 import (
 	"io"
 
-	"go.etcd.io/etcd/v3/pkg/ioutil"
-	"go.etcd.io/etcd/v3/raft/raftpb"
+	"github.com/ozonru/etcd/pkg/ioutil"
+	"github.com/ozonru/etcd/raft/raftpb"
 )
 
 // Message is a struct that contains a raft Message and a ReadCloser. The type

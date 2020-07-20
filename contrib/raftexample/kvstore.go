@@ -21,7 +21,7 @@ import (
 	"log"
 	"sync"
 
-	"go.etcd.io/etcd/v3/etcdserver/api/snap"
+	"github.com/ozonru/etcd/etcdserver/api/snap"
 )
 
 // a key-value store backed by raft

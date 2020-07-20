@@ -20,9 +20,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/v3/lease"
-	"go.etcd.io/etcd/v3/mvcc"
-	"go.etcd.io/etcd/v3/mvcc/backend"
+	"github.com/ozonru/etcd/lease"
+	"github.com/ozonru/etcd/mvcc"
+	"github.com/ozonru/etcd/mvcc/backend"
 
 	"github.com/spf13/cobra"
 )

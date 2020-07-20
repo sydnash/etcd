@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/v3/raft"
+	"github.com/ozonru/etcd/raft"
 )
 
 func TestBasicProgress(t *testing.T) {

@@ -12,9 +12,9 @@ import (
 
 	_ "github.com/gogo/protobuf/gogoproto"
 
-	mvccpb "go.etcd.io/etcd/v3/mvcc/mvccpb"
+	mvccpb "github.com/ozonru/etcd/mvcc/mvccpb"
 
-	authpb "go.etcd.io/etcd/v3/auth/authpb"
+	authpb "github.com/ozonru/etcd/auth/authpb"
 
 	context "golang.org/x/net/context"
 

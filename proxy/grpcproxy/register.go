@@ -15,7 +15,7 @@
 package grpcproxy
 
 import (
-	"go.etcd.io/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/clientv3"
 
 	"go.uber.org/zap"
 )

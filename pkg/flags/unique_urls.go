@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"go.etcd.io/etcd/v3/pkg/types"
+	"github.com/ozonru/etcd/pkg/types"
 )
 
 // UniqueURLs contains unique URLs

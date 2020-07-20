@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
-	v3 "go.etcd.io/etcd/v3/clientv3"
-	pb "go.etcd.io/etcd/v3/mvcc/mvccpb"
+	v3 "github.com/ozonru/etcd/clientv3"
+	pb "github.com/ozonru/etcd/mvcc/mvccpb"
 
 	"github.com/spf13/cobra"
 )

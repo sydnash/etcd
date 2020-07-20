@@ -1,4 +1,4 @@
-module go.etcd.io/etcd/v3
+module github.com/ozonru/etcd
 
 go 1.14
 

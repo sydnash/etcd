@@ -26,12 +26,12 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/v3/etcdserver/api/snap/snappb"
-	pioutil "go.etcd.io/etcd/v3/pkg/ioutil"
-	"go.etcd.io/etcd/v3/pkg/pbutil"
-	"go.etcd.io/etcd/v3/raft"
-	"go.etcd.io/etcd/v3/raft/raftpb"
-	"go.etcd.io/etcd/v3/wal/walpb"
+	"github.com/ozonru/etcd/etcdserver/api/snap/snappb"
+	pioutil "github.com/ozonru/etcd/pkg/ioutil"
+	"github.com/ozonru/etcd/pkg/pbutil"
+	"github.com/ozonru/etcd/raft"
+	"github.com/ozonru/etcd/raft/raftpb"
+	"github.com/ozonru/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/v3/clientv3"
-	"go.etcd.io/etcd/v3/pkg/testutil"
-	"go.etcd.io/etcd/v3/pkg/transport"
-	"go.etcd.io/etcd/v3/pkg/types"
+	"github.com/ozonru/etcd/clientv3"
+	"github.com/ozonru/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/pkg/transport"
+	"github.com/ozonru/etcd/pkg/types"
 )
 
 func TestCtlV3MoveLeaderSecure(t *testing.T) {

@@ -16,7 +16,7 @@ package command
 
 import (
 	"github.com/urfave/cli"
-	"go.etcd.io/etcd/v3/client"
+	"github.com/ozonru/etcd/client"
 )
 
 // NewSetDirCommand returns the CLI command for "setDir".

@@ -17,8 +17,8 @@ package api
 import (
 	"sync"
 
-	"go.etcd.io/etcd/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/v3/version"
+	"github.com/ozonru/etcd/etcdserver/api/membership"
+	"github.com/ozonru/etcd/version"
 	"go.uber.org/zap"
 
 	"github.com/coreos/go-semver/semver"

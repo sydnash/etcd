@@ -22,11 +22,11 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/v3/etcdserver/api/v2store"
-	"go.etcd.io/etcd/v3/pkg/mock/mockstore"
-	"go.etcd.io/etcd/v3/pkg/testutil"
-	"go.etcd.io/etcd/v3/pkg/types"
-	"go.etcd.io/etcd/v3/raft/raftpb"
+	"github.com/ozonru/etcd/etcdserver/api/v2store"
+	"github.com/ozonru/etcd/pkg/mock/mockstore"
+	"github.com/ozonru/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/pkg/types"
+	"github.com/ozonru/etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 )
