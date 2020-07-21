@@ -24,10 +24,10 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/ozonru/etcd/embed"
-	"github.com/ozonru/etcd/pkg/flags"
-	"github.com/ozonru/etcd/pkg/logutil"
-	"github.com/ozonru/etcd/version"
+	"github.com/ozonru/etcd/v3/embed"
+	"github.com/ozonru/etcd/v3/pkg/flags"
+	"github.com/ozonru/etcd/v3/pkg/logutil"
+	"github.com/ozonru/etcd/v3/version"
 
 	"go.uber.org/zap"
 	"sigs.k8s.io/yaml"

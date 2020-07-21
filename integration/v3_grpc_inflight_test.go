@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

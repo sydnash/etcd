@@ -12,7 +12,7 @@ import (
 
 	_ "github.com/gogo/protobuf/gogoproto"
 
-	membershippb "github.com/ozonru/etcd/etcdserver/api/membership/membershippb"
+	membershippb "github.com/ozonru/etcd/v3/etcdserver/api/membership/membershippb"
 
 	io "io"
 )

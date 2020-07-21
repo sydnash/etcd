@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ozonru/etcd/client"
+	"github.com/ozonru/etcd/v3/client"
 )
 
 // printResponseKey only supports to print key correctly.

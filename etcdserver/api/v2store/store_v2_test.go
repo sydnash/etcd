@@ -19,8 +19,8 @@ package v2store_test
 import (
 	"testing"
 
-	"github.com/ozonru/etcd/etcdserver/api/v2store"
-	"github.com/ozonru/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v2store"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
 )
 
 type v2TestStore struct {

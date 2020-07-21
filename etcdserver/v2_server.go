@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/api/v2store"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v2store"
+	pb "github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
 )
 
 type RequestV2 pb.Request

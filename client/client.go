@@ -29,7 +29,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/version"
+	"github.com/ozonru/etcd/v3/version"
 )
 
 var (

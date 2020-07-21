@@ -21,10 +21,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ozonru/etcd/pkg/crc"
-	"github.com/ozonru/etcd/pkg/pbutil"
-	"github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/wal/walpb"
+	"github.com/ozonru/etcd/v3/pkg/crc"
+	"github.com/ozonru/etcd/v3/pkg/pbutil"
+	"github.com/ozonru/etcd/v3/raft/raftpb"
+	"github.com/ozonru/etcd/v3/wal/walpb"
 )
 
 const minSectorSize = 512

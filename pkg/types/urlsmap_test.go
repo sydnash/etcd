@@ -15,7 +15,7 @@
 package types
 
 import (
-	"github.com/ozonru/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
 	"reflect"
 	"testing"
 )

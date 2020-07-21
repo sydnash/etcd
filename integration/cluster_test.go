@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/client"
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/v3/client"
+	"github.com/ozonru/etcd/v3/etcdserver"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
 )
 
 func init() {

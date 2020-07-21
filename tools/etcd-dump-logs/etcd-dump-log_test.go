@@ -24,12 +24,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ozonru/etcd/auth/authpb"
-	"github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/pkg/fileutil"
-	"github.com/ozonru/etcd/pkg/pbutil"
-	"github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/wal"
+	"github.com/ozonru/etcd/v3/auth/authpb"
+	"github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/ozonru/etcd/v3/pkg/fileutil"
+	"github.com/ozonru/etcd/v3/pkg/pbutil"
+	"github.com/ozonru/etcd/v3/raft/raftpb"
+	"github.com/ozonru/etcd/v3/wal"
 	"go.uber.org/zap"
 )
 

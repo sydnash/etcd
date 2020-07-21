@@ -20,8 +20,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/ozonru/etcd/etcdctl/ctlv2/command"
-	"github.com/ozonru/etcd/version"
+	"github.com/ozonru/etcd/v3/etcdctl/ctlv2/command"
+	"github.com/ozonru/etcd/v3/version"
 
 	"github.com/urfave/cli"
 )

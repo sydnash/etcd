@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ozonru/etcd/raft/quorum"
-	pb "github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/raft/tracker"
+	"github.com/ozonru/etcd/v3/raft/quorum"
+	pb "github.com/ozonru/etcd/v3/raft/raftpb"
+	"github.com/ozonru/etcd/v3/raft/tracker"
 )
 
 // rawNodeAdapter is essentially a lint that makes sure that RawNode implements

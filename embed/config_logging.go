@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ozonru/etcd/pkg/logutil"
+	"github.com/ozonru/etcd/v3/pkg/logutil"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

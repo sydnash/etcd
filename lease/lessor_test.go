@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/mvcc/backend"
+	pb "github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/ozonru/etcd/v3/mvcc/backend"
 	"go.uber.org/zap"
 )
 

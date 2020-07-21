@@ -22,7 +22,7 @@ import (
 	"os"
 	"sync"
 
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	pb "github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/resolver"

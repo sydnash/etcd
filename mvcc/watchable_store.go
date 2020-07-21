@@ -18,11 +18,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/cindex"
-	"github.com/ozonru/etcd/lease"
-	"github.com/ozonru/etcd/mvcc/backend"
-	"github.com/ozonru/etcd/mvcc/mvccpb"
-	"github.com/ozonru/etcd/pkg/traceutil"
+	"github.com/ozonru/etcd/v3/etcdserver/cindex"
+	"github.com/ozonru/etcd/v3/lease"
+	"github.com/ozonru/etcd/v3/mvcc/backend"
+	"github.com/ozonru/etcd/v3/mvcc/mvccpb"
+	"github.com/ozonru/etcd/v3/pkg/traceutil"
 
 	"go.uber.org/zap"
 )

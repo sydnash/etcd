@@ -18,11 +18,11 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ozonru/etcd/auth"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/lease"
-	"github.com/ozonru/etcd/mvcc"
-	"github.com/ozonru/etcd/pkg/traceutil"
+	"github.com/ozonru/etcd/v3/auth"
+	pb "github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/ozonru/etcd/v3/lease"
+	"github.com/ozonru/etcd/v3/mvcc"
+	"github.com/ozonru/etcd/v3/pkg/traceutil"
 )
 
 type authApplierV3 struct {

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ozonru/etcd/tools/benchmark/cmd"
+	"github.com/ozonru/etcd/v3/tools/benchmark/cmd"
 )
 
 func main() {

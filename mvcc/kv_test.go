@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/lease"
-	"github.com/ozonru/etcd/mvcc/backend"
-	"github.com/ozonru/etcd/mvcc/mvccpb"
-	"github.com/ozonru/etcd/pkg/testutil"
-	"github.com/ozonru/etcd/pkg/traceutil"
+	"github.com/ozonru/etcd/v3/lease"
+	"github.com/ozonru/etcd/v3/mvcc/backend"
+	"github.com/ozonru/etcd/v3/mvcc/mvccpb"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
+	"github.com/ozonru/etcd/v3/pkg/traceutil"
 
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"

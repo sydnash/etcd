@@ -19,8 +19,8 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/ozonru/etcd/pkg/expect"
-	"github.com/ozonru/etcd/pkg/fileutil"
+	"github.com/ozonru/etcd/v3/pkg/expect"
+	"github.com/ozonru/etcd/v3/pkg/fileutil"
 )
 
 var (

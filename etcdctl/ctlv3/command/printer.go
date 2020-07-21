@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	v3 "github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/clientv3/snapshot"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	v3 "github.com/ozonru/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/v3/clientv3/snapshot"
+	pb "github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
 
 	"github.com/dustin/go-humanize"
 )

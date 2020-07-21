@@ -11,16 +11,16 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-//
-// DEPRECATED: don't use grpc discovery via package `grpcproxy`.
-//
+
 // Package naming provides an etcd-backed gRPC resolver for discovering gRPC services.
+//
+// DEPRECATED: don't use grpc discovery via package `proxy.grpcproxy`.
 //
 // To use, first import the packages:
 //
 //	import (
-//		"github.com/ozonru/etcd/clientv3"
-//		etcdnaming "github.com/ozonru/etcd/clientv3/naming"
+//		"github.com/ozonru/etcd/v3/clientv3"
+//		etcdnaming "github.com/ozonru/etcd/v3/clientv3/naming"
 //
 //		"google.golang.org/grpc"
 //		"google.golang.org/grpc/naming"

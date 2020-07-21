@@ -21,9 +21,9 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/ozonru/etcd/lease"
-	"github.com/ozonru/etcd/pkg/report"
-	"github.com/ozonru/etcd/pkg/traceutil"
+	"github.com/ozonru/etcd/v3/lease"
+	"github.com/ozonru/etcd/v3/pkg/report"
+	"github.com/ozonru/etcd/v3/pkg/traceutil"
 
 	"github.com/spf13/cobra"
 )

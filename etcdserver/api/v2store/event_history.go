@@ -20,7 +20,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ozonru/etcd/etcdserver/api/v2error"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v2error"
 )
 
 type EventHistory struct {

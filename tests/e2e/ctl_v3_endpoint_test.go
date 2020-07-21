@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3"
+	"github.com/ozonru/etcd/v3/clientv3"
 )
 
 func TestCtlV3EndpointHealth(t *testing.T) { testCtl(t, endpointHealthTest, withQuorum()) }

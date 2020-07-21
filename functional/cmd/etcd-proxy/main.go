@@ -28,7 +28,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/proxy"
+	"github.com/ozonru/etcd/v3/pkg/proxy"
 
 	"go.uber.org/zap"
 )

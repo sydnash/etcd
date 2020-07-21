@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	"github.com/cockroachdb/datadriven"
-	"github.com/ozonru/etcd/raft"
-	"github.com/ozonru/etcd/raft/raftpb"
+	"github.com/ozonru/etcd/v3/raft"
+	"github.com/ozonru/etcd/v3/raft/raftpb"
 )
 
 func (env *InteractionEnv) handleDeliverMsgs(t *testing.T, d datadriven.TestData) error {

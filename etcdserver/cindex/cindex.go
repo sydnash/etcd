@@ -19,7 +19,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ozonru/etcd/mvcc/backend"
+	"github.com/ozonru/etcd/v3/mvcc/backend"
 )
 
 var (

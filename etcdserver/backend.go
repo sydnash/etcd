@@ -19,10 +19,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/api/snap"
-	"github.com/ozonru/etcd/etcdserver/cindex"
-	"github.com/ozonru/etcd/mvcc/backend"
-	"github.com/ozonru/etcd/raft/raftpb"
+	"github.com/ozonru/etcd/v3/etcdserver/api/snap"
+	"github.com/ozonru/etcd/v3/etcdserver/cindex"
+	"github.com/ozonru/etcd/v3/mvcc/backend"
+	"github.com/ozonru/etcd/v3/raft/raftpb"
 
 	"go.uber.org/zap"
 )

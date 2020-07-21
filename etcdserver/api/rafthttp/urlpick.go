@@ -18,7 +18,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/ozonru/etcd/pkg/types"
+	"github.com/ozonru/etcd/v3/pkg/types"
 )
 
 type urlPicker struct {

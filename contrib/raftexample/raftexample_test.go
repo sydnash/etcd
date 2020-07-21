@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/raft/raftpb"
+	"github.com/ozonru/etcd/v3/raft/raftpb"
 )
 
 type cluster struct {

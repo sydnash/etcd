@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"testing"
 
-	v3 "github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/clientv3/concurrency"
-	"github.com/ozonru/etcd/pkg/testutil"
+	v3 "github.com/ozonru/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/v3/clientv3/concurrency"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
 )
 
 // TestSTMConflict tests that conflicts are retried.

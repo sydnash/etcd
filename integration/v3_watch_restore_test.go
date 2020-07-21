@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	pb "github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
 )
 
 // TestV3WatchRestoreSnapshotUnsync tests whether slow follower can restore

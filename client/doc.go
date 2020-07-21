@@ -21,7 +21,7 @@ Create a Config and exchange it for a Client:
 		"net/http"
 		"context"
 
-		"github.com/ozonru/etcd/client"
+		"github.com/ozonru/etcd/v3/client"
 	)
 
 	cfg := client.Config{

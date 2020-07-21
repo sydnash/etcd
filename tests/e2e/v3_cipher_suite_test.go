@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ozonru/etcd/version"
+	"github.com/ozonru/etcd/v3/version"
 )
 
 func TestV3CurlCipherSuitesValid(t *testing.T)    { testV3CurlCipherSuites(t, true) }

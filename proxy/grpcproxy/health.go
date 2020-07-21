@@ -20,9 +20,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/etcdserver/api/etcdhttp"
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/ozonru/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/v3/etcdserver/api/etcdhttp"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v3rpc/rpctypes"
 	"go.uber.org/zap"
 )
 

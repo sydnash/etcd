@@ -15,9 +15,9 @@
 package auth
 
 import (
-	"github.com/ozonru/etcd/auth/authpb"
-	"github.com/ozonru/etcd/mvcc/backend"
-	"github.com/ozonru/etcd/pkg/adt"
+	"github.com/ozonru/etcd/v3/auth/authpb"
+	"github.com/ozonru/etcd/v3/mvcc/backend"
+	"github.com/ozonru/etcd/v3/pkg/adt"
 
 	"go.uber.org/zap"
 )

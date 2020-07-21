@@ -17,8 +17,8 @@ package auth
 import (
 	"testing"
 
-	"github.com/ozonru/etcd/auth/authpb"
-	"github.com/ozonru/etcd/pkg/adt"
+	"github.com/ozonru/etcd/v3/auth/authpb"
+	"github.com/ozonru/etcd/v3/pkg/adt"
 
 	"go.uber.org/zap"
 )

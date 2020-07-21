@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/fileutil"
-	"github.com/ozonru/etcd/pkg/flags"
-	"github.com/ozonru/etcd/pkg/testutil"
-	"github.com/ozonru/etcd/version"
+	"github.com/ozonru/etcd/v3/pkg/fileutil"
+	"github.com/ozonru/etcd/v3/pkg/flags"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
+	"github.com/ozonru/etcd/v3/version"
 )
 
 func TestCtlV3Version(t *testing.T) { testCtl(t, versionTest) }

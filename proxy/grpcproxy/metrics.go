@@ -24,7 +24,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/ozonru/etcd/etcdserver/api/etcdhttp"
+	"github.com/ozonru/etcd/v3/etcdserver/api/etcdhttp"
 )
 
 var (

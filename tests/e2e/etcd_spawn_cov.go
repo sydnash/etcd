@@ -24,9 +24,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/expect"
-	"github.com/ozonru/etcd/pkg/fileutil"
-	"github.com/ozonru/etcd/pkg/flags"
+	"github.com/ozonru/etcd/v3/pkg/expect"
+	"github.com/ozonru/etcd/v3/pkg/fileutil"
+	"github.com/ozonru/etcd/v3/pkg/flags"
 )
 
 const noOutputLineCount = 2 // cov-enabled binaries emit PASS and coverage count lines

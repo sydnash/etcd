@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/transport"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/version"
+	"github.com/ozonru/etcd/v3/pkg/transport"
+	"github.com/ozonru/etcd/v3/pkg/types"
+	"github.com/ozonru/etcd/v3/version"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

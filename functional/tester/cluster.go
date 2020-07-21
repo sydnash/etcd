@@ -29,9 +29,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/functional/rpcpb"
-	"github.com/ozonru/etcd/pkg/debugutil"
-	"github.com/ozonru/etcd/pkg/fileutil"
+	"github.com/ozonru/etcd/v3/functional/rpcpb"
+	"github.com/ozonru/etcd/v3/pkg/debugutil"
+	"github.com/ozonru/etcd/v3/pkg/fileutil"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.uber.org/zap"

@@ -25,12 +25,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/ozonru/etcd/integration"
-	"github.com/ozonru/etcd/mvcc/mvccpb"
-	"github.com/ozonru/etcd/pkg/testutil"
-	"github.com/ozonru/etcd/version"
+	"github.com/ozonru/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	"github.com/ozonru/etcd/v3/integration"
+	"github.com/ozonru/etcd/v3/mvcc/mvccpb"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
+	"github.com/ozonru/etcd/v3/version"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

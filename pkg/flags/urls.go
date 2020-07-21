@@ -20,7 +20,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/ozonru/etcd/pkg/types"
+	"github.com/ozonru/etcd/v3/pkg/types"
 )
 
 // URLsValue wraps "types.URLs".

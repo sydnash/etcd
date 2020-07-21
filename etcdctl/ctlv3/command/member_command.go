@@ -21,7 +21,7 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"github.com/ozonru/etcd/clientv3"
+	"github.com/ozonru/etcd/v3/clientv3"
 )
 
 var (

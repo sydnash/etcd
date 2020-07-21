@@ -15,8 +15,8 @@
 package mvcc
 
 import (
-	"github.com/ozonru/etcd/mvcc/mvccpb"
-	"github.com/ozonru/etcd/pkg/traceutil"
+	"github.com/ozonru/etcd/v3/mvcc/mvccpb"
+	"github.com/ozonru/etcd/v3/pkg/traceutil"
 )
 
 func (tw *watchableStoreTxnWrite) End() {

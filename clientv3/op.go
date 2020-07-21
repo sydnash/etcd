@@ -14,7 +14,7 @@
 
 package clientv3
 
-import pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+import pb "github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
 
 type opType int
 

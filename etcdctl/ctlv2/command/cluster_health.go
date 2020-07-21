@@ -24,7 +24,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/ozonru/etcd/client"
+	"github.com/ozonru/etcd/v3/client"
 
 	"github.com/urfave/cli"
 )

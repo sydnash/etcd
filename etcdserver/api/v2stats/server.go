@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/raft"
+	"github.com/ozonru/etcd/v3/raft"
 )
 
 // ServerStats encapsulates various statistics about an EtcdServer and its

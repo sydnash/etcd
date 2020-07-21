@@ -18,8 +18,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/clientv3/clientv3util"
+	"github.com/ozonru/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/v3/clientv3/clientv3util"
 )
 
 func ExampleKeyMissing() {

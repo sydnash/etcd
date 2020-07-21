@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ozonru/etcd/wal/walpb"
+	"github.com/ozonru/etcd/v3/wal/walpb"
 )
 
 var (

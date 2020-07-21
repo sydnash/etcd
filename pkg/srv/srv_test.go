@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ozonru/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
 )
 
 func TestSRVGetCluster(t *testing.T) {

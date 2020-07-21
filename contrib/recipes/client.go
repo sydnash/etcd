@@ -18,8 +18,8 @@ import (
 	"context"
 	"errors"
 
-	v3 "github.com/ozonru/etcd/clientv3"
-	spb "github.com/ozonru/etcd/mvcc/mvccpb"
+	v3 "github.com/ozonru/etcd/v3/clientv3"
+	spb "github.com/ozonru/etcd/v3/mvcc/mvccpb"
 )
 
 var (

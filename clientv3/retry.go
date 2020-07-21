@@ -17,8 +17,8 @@ package clientv3
 import (
 	"context"
 
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

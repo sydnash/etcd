@@ -22,7 +22,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/types"
+	"github.com/ozonru/etcd/v3/pkg/types"
 )
 
 // RaftAttributes represents the raft related attributes of an etcd member.

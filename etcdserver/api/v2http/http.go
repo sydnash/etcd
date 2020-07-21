@@ -20,9 +20,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/api/etcdhttp"
-	"github.com/ozonru/etcd/etcdserver/api/v2auth"
-	"github.com/ozonru/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/ozonru/etcd/v3/etcdserver/api/etcdhttp"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v2auth"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v2http/httptypes"
 
 	"go.uber.org/zap"
 )

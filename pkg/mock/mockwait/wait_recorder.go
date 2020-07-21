@@ -15,8 +15,8 @@
 package mockwait
 
 import (
-	"github.com/ozonru/etcd/pkg/testutil"
-	"github.com/ozonru/etcd/pkg/wait"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
+	"github.com/ozonru/etcd/v3/pkg/wait"
 )
 
 type WaitRecorder struct {

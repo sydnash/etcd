@@ -18,7 +18,7 @@ package ctlv3
 import (
 	"time"
 
-	"github.com/ozonru/etcd/etcdctl/ctlv3/command"
+	"github.com/ozonru/etcd/v3/etcdctl/ctlv3/command"
 
 	"github.com/spf13/cobra"
 )

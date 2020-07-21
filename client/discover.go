@@ -15,7 +15,7 @@
 package client
 
 import (
-	"github.com/ozonru/etcd/pkg/srv"
+	"github.com/ozonru/etcd/v3/pkg/srv"
 )
 
 // Discoverer is an interface that wraps the Discover method.

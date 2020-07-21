@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/mvcc/backend"
+	"github.com/ozonru/etcd/v3/mvcc/backend"
 )
 
 // TestConsistentIndex ensures that LoadConsistentIndex/Save/ConsistentIndex and backend.BatchTx can work well together.

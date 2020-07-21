@@ -28,13 +28,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/api/snap"
-	"github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/pkg/pbutil"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/wal"
-	"github.com/ozonru/etcd/wal/walpb"
+	"github.com/ozonru/etcd/v3/etcdserver/api/snap"
+	"github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/ozonru/etcd/v3/pkg/pbutil"
+	"github.com/ozonru/etcd/v3/pkg/types"
+	"github.com/ozonru/etcd/v3/raft/raftpb"
+	"github.com/ozonru/etcd/v3/wal"
+	"github.com/ozonru/etcd/v3/wal/walpb"
 	"go.uber.org/zap"
 )
 

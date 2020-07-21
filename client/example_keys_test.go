@@ -20,7 +20,7 @@ import (
 	"log"
 	"sort"
 
-	"github.com/ozonru/etcd/client"
+	"github.com/ozonru/etcd/v3/client"
 )
 
 func ExampleKeysAPI_directory() {

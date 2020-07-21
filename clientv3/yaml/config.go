@@ -22,8 +22,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/pkg/tlsutil"
+	"github.com/ozonru/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/v3/pkg/tlsutil"
 )
 
 type yamlConfig struct {

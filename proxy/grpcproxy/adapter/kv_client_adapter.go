@@ -17,7 +17,7 @@ package adapter
 import (
 	"context"
 
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	pb "github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
 
 	grpc "google.golang.org/grpc"
 )

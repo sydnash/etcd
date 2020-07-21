@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3/balancer/connectivity"
-	"github.com/ozonru/etcd/clientv3/balancer/picker"
+	"github.com/ozonru/etcd/v3/clientv3/balancer/connectivity"
+	"github.com/ozonru/etcd/v3/clientv3/balancer/picker"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc/balancer"
@@ -75,7 +75,7 @@ type builder struct {
 
 // Build is called initially when creating "ccBalancerWrapper".
 // "grpc.Dial" is called to this client connection.
-// Then, resolved addresses will be handled via "HandleResolvedAddrs".
+// Then, resolved addresses will be handled via "UpdateClientConnState".
 func (b *builder) Build(cc balancer.ClientConn, opt balancer.BuildOptions) balancer.Balancer {
 	bb := &baseBalancer{
 		id:                 strconv.FormatInt(time.Now().UnixNano(), 36),
@@ -113,12 +113,14 @@ func (b *builder) Name() string { return b.cfg.Name }
 
 // Balancer defines client balancer interface.
 type Balancer interface {
-	// Balancer is called on specified client connection. Client initiates gRPC
-	// connection with "grpc.Dial(addr, grpc.WithBalancerName)", and then those resolved
-	// addresses are passed to "grpc/balancer.Balancer.HandleResolvedAddrs".
-	// For each resolved address, balancer calls "balancer.ClientConn.NewSubConn".
-	// "grpc/balancer.Balancer.HandleSubConnStateChange" is called when connectivity state
-	// changes, thus requires failover logic in this method.
+	// Balancer takes input from gRPC, manages SubConns, and collects and aggregates
+	// the connectivity states.
+	//
+	// It also generates and updates the Picker used by gRPC to pick SubConns for RPCs.
+	//
+	// UpdateClientConnState, ResolverError, UpdateSubConnState, and Close are
+	// guaranteed to be called synchronously from the same goroutine.  There's no
+	// guarantee on picker.Pick, it may be called anytime.
 	balancer.Balancer
 
 	// Picker calls "Pick" for every client request.

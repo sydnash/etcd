@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/integration"
-	"github.com/ozonru/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/v3/clientv3"
+	pb "github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/ozonru/etcd/v3/integration"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

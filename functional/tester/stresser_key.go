@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/ozonru/etcd/functional/rpcpb"
-	"github.com/ozonru/etcd/raft"
+	"github.com/ozonru/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/v3/etcdserver"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	"github.com/ozonru/etcd/v3/functional/rpcpb"
+	"github.com/ozonru/etcd/v3/raft"
 
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"

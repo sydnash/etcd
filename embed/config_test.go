@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/transport"
+	"github.com/ozonru/etcd/v3/pkg/transport"
 
 	"sigs.k8s.io/yaml"
 )

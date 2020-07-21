@@ -18,7 +18,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ozonru/etcd/clientv3"
+	"github.com/ozonru/etcd/v3/clientv3"
 )
 
 // kvOrdering ensures that serialized requests do not return

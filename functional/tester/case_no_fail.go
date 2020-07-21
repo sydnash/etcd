@@ -17,7 +17,7 @@ package tester
 import (
 	"time"
 
-	"github.com/ozonru/etcd/functional/rpcpb"
+	"github.com/ozonru/etcd/v3/functional/rpcpb"
 
 	"go.uber.org/zap"
 )

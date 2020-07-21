@@ -20,7 +20,7 @@ import (
 	"os"
 
 	"github.com/urfave/cli"
-	"github.com/ozonru/etcd/client"
+	"github.com/ozonru/etcd/v3/client"
 )
 
 const (

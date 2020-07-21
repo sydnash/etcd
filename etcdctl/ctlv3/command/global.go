@@ -25,10 +25,10 @@ import (
 	"time"
 
 	"github.com/bgentry/speakeasy"
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/pkg/flags"
-	"github.com/ozonru/etcd/pkg/srv"
-	"github.com/ozonru/etcd/pkg/transport"
+	"github.com/ozonru/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/v3/pkg/flags"
+	"github.com/ozonru/etcd/v3/pkg/srv"
+	"github.com/ozonru/etcd/v3/pkg/transport"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ozonru/etcd/pkg/types"
+	"github.com/ozonru/etcd/v3/pkg/types"
 )
 
 // UniqueURLs contains unique URLs

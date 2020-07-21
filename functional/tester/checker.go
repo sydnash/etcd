@@ -14,7 +14,7 @@
 
 package tester
 
-import "github.com/ozonru/etcd/functional/rpcpb"
+import "github.com/ozonru/etcd/v3/functional/rpcpb"
 
 // Checker checks cluster consistency.
 type Checker interface {

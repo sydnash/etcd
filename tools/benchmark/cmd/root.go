@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/transport"
+	"github.com/ozonru/etcd/v3/pkg/transport"
 
 	"github.com/spf13/cobra"
 	"gopkg.in/cheggaaa/pb.v1"

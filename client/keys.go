@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/ozonru/etcd/pkg/pathutil"
+	"github.com/ozonru/etcd/v3/pkg/pathutil"
 	"net/http"
 	"net/url"
 	"strconv"

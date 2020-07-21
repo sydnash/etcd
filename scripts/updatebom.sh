@@ -15,6 +15,6 @@ export GO111MODULE=on
 echo "generating bill-of-materials.json"
 license-bill-of-materials \
     --override-file ./bill-of-materials.override.json \
-    github.com/ozonru/etcd github.com/ozonru/etcd/etcdctl > bill-of-materials.json
+    github.com/ozonru/etcd/v3 github.com/ozonru/etcd/v3/etcdctl > bill-of-materials.json
 
 echo "generated bill-of-materials.json"

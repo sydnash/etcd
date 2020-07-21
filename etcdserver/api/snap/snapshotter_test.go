@@ -16,7 +16,7 @@ package snap
 
 import (
 	"fmt"
-	"github.com/ozonru/etcd/pkg/fileutil"
+	"github.com/ozonru/etcd/v3/pkg/fileutil"
 	"hash/crc32"
 	"io/ioutil"
 	"os"
@@ -24,8 +24,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/wal/walpb"
+	"github.com/ozonru/etcd/v3/raft/raftpb"
+	"github.com/ozonru/etcd/v3/wal/walpb"
 
 	"go.uber.org/zap"
 )

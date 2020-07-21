@@ -15,8 +15,8 @@
 package rafthttp
 
 import (
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/raft/raftpb"
+	"github.com/ozonru/etcd/v3/pkg/types"
+	"github.com/ozonru/etcd/v3/raft/raftpb"
 
 	"go.uber.org/zap"
 )

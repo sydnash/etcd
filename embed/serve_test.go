@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ozonru/etcd/auth"
+	"github.com/ozonru/etcd/v3/auth"
 )
 
 // TestStartEtcdWrongToken ensures that StartEtcd with wrong configs returns with error.

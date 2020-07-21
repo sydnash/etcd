@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/clientv3/concurrency"
+	"github.com/ozonru/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/v3/clientv3/concurrency"
 )
 
 // TestElectionWait tests if followers can correctly wait for elections.

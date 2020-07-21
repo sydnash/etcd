@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	stats "github.com/ozonru/etcd/etcdserver/api/v2stats"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/raft"
-	"github.com/ozonru/etcd/raft/raftpb"
+	stats "github.com/ozonru/etcd/v3/etcdserver/api/v2stats"
+	"github.com/ozonru/etcd/v3/pkg/types"
+	"github.com/ozonru/etcd/v3/raft"
+	"github.com/ozonru/etcd/v3/raft/raftpb"
 
 	"go.uber.org/zap"
 )

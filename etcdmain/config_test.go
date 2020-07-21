@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ozonru/etcd/embed"
+	"github.com/ozonru/etcd/v3/embed"
 	"sigs.k8s.io/yaml"
 )
 

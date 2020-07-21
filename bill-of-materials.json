@@ -315,7 +315,7 @@
 		]
 	},
 	{
-		"project": "github.com/ozonru/etcd",
+		"project": "github.com/ozonru/etcd/v3",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

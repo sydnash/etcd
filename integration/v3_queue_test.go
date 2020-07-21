@@ -20,7 +20,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/ozonru/etcd/contrib/recipes"
+	"github.com/ozonru/etcd/v3/contrib/recipes"
 )
 
 const (

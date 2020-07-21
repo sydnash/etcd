@@ -20,7 +20,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ozonru/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
 )
 
 func TestNodeExternClone(t *testing.T) {

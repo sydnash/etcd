@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ozonru/etcd/pkg/expect"
+	"github.com/ozonru/etcd/v3/pkg/expect"
 )
 
 const exampleConfigFile = "../../etcd.conf.yml.sample"

@@ -18,7 +18,7 @@ import (
 	"context"
 	"time"
 
-	v3 "github.com/ozonru/etcd/clientv3"
+	v3 "github.com/ozonru/etcd/v3/clientv3"
 )
 
 const defaultSessionTTL = 60

@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3/snapshot"
-	"github.com/ozonru/etcd/pkg/expect"
-	"github.com/ozonru/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/v3/clientv3/snapshot"
+	"github.com/ozonru/etcd/v3/pkg/expect"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
 )
 
 func TestCtlV3Snapshot(t *testing.T) { testCtl(t, snapshotTest) }

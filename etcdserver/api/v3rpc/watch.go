@@ -21,12 +21,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/auth"
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/mvcc"
-	"github.com/ozonru/etcd/mvcc/mvccpb"
+	"github.com/ozonru/etcd/v3/auth"
+	"github.com/ozonru/etcd/v3/etcdserver"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
+	"github.com/ozonru/etcd/v3/mvcc"
+	"github.com/ozonru/etcd/v3/mvcc/mvccpb"
 
 	"go.uber.org/zap"
 )

@@ -19,7 +19,7 @@ import (
 	"testing"
 
 	"github.com/cockroachdb/datadriven"
-	"github.com/ozonru/etcd/raft/tracker"
+	"github.com/ozonru/etcd/v3/raft/tracker"
 )
 
 func (env *InteractionEnv) handleStatus(t *testing.T, d datadriven.TestData) error {

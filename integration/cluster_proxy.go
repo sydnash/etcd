@@ -19,10 +19,10 @@ package integration
 import (
 	"sync"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/clientv3/namespace"
-	"github.com/ozonru/etcd/proxy/grpcproxy"
-	"github.com/ozonru/etcd/proxy/grpcproxy/adapter"
+	"github.com/ozonru/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/v3/clientv3/namespace"
+	"github.com/ozonru/etcd/v3/proxy/grpcproxy"
+	"github.com/ozonru/etcd/v3/proxy/grpcproxy/adapter"
 
 	"go.uber.org/zap"
 )

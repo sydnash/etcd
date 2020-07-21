@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ozonru/etcd/raft/raftpb"
+	"github.com/ozonru/etcd/v3/raft/raftpb"
 )
 
 func TestMessage(t *testing.T) {

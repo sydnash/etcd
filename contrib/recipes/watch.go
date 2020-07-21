@@ -17,8 +17,8 @@ package recipe
 import (
 	"context"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/mvcc/mvccpb"
+	"github.com/ozonru/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/v3/mvcc/mvccpb"
 )
 
 // WaitEvents waits on a key until it observes the given events and returns the final one.

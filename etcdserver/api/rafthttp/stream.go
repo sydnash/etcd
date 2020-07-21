@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	stats "github.com/ozonru/etcd/etcdserver/api/v2stats"
-	"github.com/ozonru/etcd/pkg/httputil"
-	"github.com/ozonru/etcd/pkg/transport"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/version"
+	stats "github.com/ozonru/etcd/v3/etcdserver/api/v2stats"
+	"github.com/ozonru/etcd/v3/pkg/httputil"
+	"github.com/ozonru/etcd/v3/pkg/transport"
+	"github.com/ozonru/etcd/v3/pkg/types"
+	"github.com/ozonru/etcd/v3/raft/raftpb"
+	"github.com/ozonru/etcd/v3/version"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

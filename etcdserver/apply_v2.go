@@ -19,9 +19,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/api/membership"
-	"github.com/ozonru/etcd/etcdserver/api/v2store"
-	"github.com/ozonru/etcd/pkg/pbutil"
+	"github.com/ozonru/etcd/v3/etcdserver/api/membership"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v2store"
+	"github.com/ozonru/etcd/v3/pkg/pbutil"
 
 	"go.uber.org/zap"
 )

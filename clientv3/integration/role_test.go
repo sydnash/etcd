@@ -18,9 +18,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/ozonru/etcd/integration"
-	"github.com/ozonru/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v3rpc/rpctypes"
+	"github.com/ozonru/etcd/v3/integration"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
 )
 
 func TestRoleError(t *testing.T) {

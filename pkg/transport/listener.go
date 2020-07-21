@@ -31,8 +31,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/fileutil"
-	"github.com/ozonru/etcd/pkg/tlsutil"
+	"github.com/ozonru/etcd/v3/pkg/fileutil"
+	"github.com/ozonru/etcd/v3/pkg/tlsutil"
 
 	"go.uber.org/zap"
 )

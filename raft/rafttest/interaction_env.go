@@ -19,8 +19,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/ozonru/etcd/raft"
-	pb "github.com/ozonru/etcd/raft/raftpb"
+	"github.com/ozonru/etcd/v3/raft"
+	pb "github.com/ozonru/etcd/v3/raft/raftpb"
 )
 
 // InteractionOpts groups the options for an InteractionEnv.

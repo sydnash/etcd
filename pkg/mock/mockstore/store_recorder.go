@@ -17,8 +17,8 @@ package mockstore
 import (
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/api/v2store"
-	"github.com/ozonru/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v2store"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
 )
 
 // StoreRecorder provides a Store interface with a testutil.Recorder

@@ -17,8 +17,8 @@ package recipe
 import (
 	"context"
 
-	v3 "github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/mvcc/mvccpb"
+	v3 "github.com/ozonru/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/v3/mvcc/mvccpb"
 )
 
 // Queue implements a multi-reader, multi-writer distributed queue.

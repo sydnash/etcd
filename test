@@ -641,7 +641,7 @@ function bom_pass {
 	# https://github.com/golang/go/commit/7c388cc89c76bc7167287fb488afcaf5a4aa12bf
 	GOFLAGS="-mod=mod" license-bill-of-materials \
 		--override-file bill-of-materials.override.json \
-		github.com/ozonru/etcd github.com/ozonru/etcd/etcdctl >bom-now.json || true
+		github.com/ozonru/etcd/v3 github.com/ozonru/etcd/v3/etcdctl >bom-now.json || true
 	if ! diff bill-of-materials.json bom-now.json; then
 		echo "vendored licenses do not match given bill of materials"
 		exit 255

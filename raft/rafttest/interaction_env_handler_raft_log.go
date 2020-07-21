@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/cockroachdb/datadriven"
-	"github.com/ozonru/etcd/raft"
+	"github.com/ozonru/etcd/v3/raft"
 )
 
 func (env *InteractionEnv) handleRaftLog(t *testing.T, d datadriven.TestData) error {

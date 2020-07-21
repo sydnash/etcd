@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ozonru/etcd/clientv3"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	"github.com/ozonru/etcd/v3/clientv3"
+	pb "github.com/ozonru/etcd/v3/etcdserver/etcdserverpb"
 
 	"github.com/spf13/cobra"
 )

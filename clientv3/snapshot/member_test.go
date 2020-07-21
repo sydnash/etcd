@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/embed"
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/pkg/testutil"
+	"github.com/ozonru/etcd/v3/clientv3"
+	"github.com/ozonru/etcd/v3/embed"
+	"github.com/ozonru/etcd/v3/etcdserver"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
 )
 
 // TestSnapshotV3RestoreMultiMemberAdd ensures that multiple members

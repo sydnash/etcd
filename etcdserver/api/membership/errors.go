@@ -17,7 +17,7 @@ package membership
 import (
 	"errors"
 
-	"github.com/ozonru/etcd/etcdserver/api/v2error"
+	"github.com/ozonru/etcd/v3/etcdserver/api/v2error"
 )
 
 var (

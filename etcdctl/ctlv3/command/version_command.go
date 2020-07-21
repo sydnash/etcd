@@ -17,7 +17,7 @@ package command
 import (
 	"fmt"
 
-	"github.com/ozonru/etcd/version"
+	"github.com/ozonru/etcd/v3/version"
 
 	"github.com/spf13/cobra"
 )

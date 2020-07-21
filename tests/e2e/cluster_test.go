@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver"
+	"github.com/ozonru/etcd/v3/etcdserver"
 )
 
 const etcdProcessBasePort = 20000

@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/fileutil"
-	"github.com/ozonru/etcd/pkg/testutil"
-	"github.com/ozonru/etcd/version"
+	"github.com/ozonru/etcd/v3/pkg/fileutil"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
+	"github.com/ozonru/etcd/v3/version"
 )
 
 // TestReleaseUpgrade ensures that changes to master branch does not affect

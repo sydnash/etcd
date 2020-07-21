@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/testutil"
-	"github.com/ozonru/etcd/pkg/transport"
+	"github.com/ozonru/etcd/v3/pkg/testutil"
+	"github.com/ozonru/etcd/v3/pkg/transport"
 )
 
 func TestV2Set(t *testing.T) {

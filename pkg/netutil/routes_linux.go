@@ -24,7 +24,7 @@ import (
 	"sort"
 	"syscall"
 
-	"github.com/ozonru/etcd/pkg/cpuutil"
+	"github.com/ozonru/etcd/v3/pkg/cpuutil"
 )
 
 var errNoDefaultRoute = fmt.Errorf("could not find default route")
