@@ -21,7 +21,7 @@ Launch an embedded etcd server using the configuration defaults:
 		"log"
 		"time"
 
-		"github.com/ozonru/etcd/embed"
+		"github.com/sydnash/etcd/embed"
 	)
 
 	func main() {

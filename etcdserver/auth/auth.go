@@ -26,10 +26,10 @@ import (
 	"strings"
 	"time"
 
-	etcderr "github.com/ozonru/etcd/error"
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/pkg/types"
+	etcderr "github.com/sydnash/etcd/error"
+	"github.com/sydnash/etcd/etcdserver"
+	"github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/pkg/types"
 	"github.com/coreos/pkg/capnslog"
 
 	"golang.org/x/crypto/bcrypt"
@@ -47,7 +47,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/ozonru/etcd", "etcdserver/auth")
+	plog = capnslog.NewPackageLogger("github.com/sydnash/etcd", "etcdserver/auth")
 )
 
 var rootRole = Role{

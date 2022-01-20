@@ -17,9 +17,9 @@ package etcdserver
 import (
 	"io"
 
-	"github.com/ozonru/etcd/mvcc/backend"
-	"github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/snap"
+	"github.com/sydnash/etcd/mvcc/backend"
+	"github.com/sydnash/etcd/raft/raftpb"
+	"github.com/sydnash/etcd/snap"
 )
 
 // createMergedSnapshotMessage creates a snapshot message that contains: raft status (term, conf),

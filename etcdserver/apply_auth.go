@@ -17,10 +17,10 @@ package etcdserver
 import (
 	"sync"
 
-	"github.com/ozonru/etcd/auth"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/lease"
-	"github.com/ozonru/etcd/mvcc"
+	"github.com/sydnash/etcd/auth"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/lease"
+	"github.com/sydnash/etcd/mvcc"
 )
 
 type authApplierV3 struct {

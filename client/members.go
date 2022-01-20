@@ -23,7 +23,7 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/ozonru/etcd/pkg/types"
+	"github.com/sydnash/etcd/pkg/types"
 )
 
 var (

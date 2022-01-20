@@ -19,9 +19,9 @@ import (
 	"os"
 	"strings"
 
-	v3 "github.com/ozonru/etcd/clientv3"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/pkg/types"
+	v3 "github.com/sydnash/etcd/clientv3"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/pkg/types"
 )
 
 type simplePrinter struct {

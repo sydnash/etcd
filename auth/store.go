@@ -24,9 +24,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ozonru/etcd/auth/authpb"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/mvcc/backend"
+	"github.com/sydnash/etcd/auth/authpb"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/mvcc/backend"
 
 	"github.com/coreos/pkg/capnslog"
 	"golang.org/x/crypto/bcrypt"
@@ -46,7 +46,7 @@ var (
 	authUsersBucketName = []byte("authUsers")
 	authRolesBucketName = []byte("authRoles")
 
-	plog = capnslog.NewPackageLogger("github.com/ozonru/etcd", "auth")
+	plog = capnslog.NewPackageLogger("github.com/sydnash/etcd", "auth")
 
 	ErrRootUserNotExist     = errors.New("auth: root user does not exist")
 	ErrRootRoleNotExist     = errors.New("auth: root user does not have root role")

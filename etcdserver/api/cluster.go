@@ -15,8 +15,8 @@
 package api
 
 import (
-	"github.com/ozonru/etcd/etcdserver/membership"
-	"github.com/ozonru/etcd/pkg/types"
+	"github.com/sydnash/etcd/etcdserver/membership"
+	"github.com/sydnash/etcd/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 )

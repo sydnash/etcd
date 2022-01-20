@@ -34,7 +34,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/ozonru/etcd", "pkg/fileutil")
+	plog = capnslog.NewPackageLogger("github.com/sydnash/etcd", "pkg/fileutil")
 )
 
 // IsDirWriteable checks if dir is writable by writing and removing a file

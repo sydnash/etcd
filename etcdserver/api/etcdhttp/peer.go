@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/etcdserver/api"
-	"github.com/ozonru/etcd/lease/leasehttp"
-	"github.com/ozonru/etcd/rafthttp"
+	"github.com/sydnash/etcd/etcdserver"
+	"github.com/sydnash/etcd/etcdserver/api"
+	"github.com/sydnash/etcd/lease/leasehttp"
+	"github.com/sydnash/etcd/rafthttp"
 )
 
 const (

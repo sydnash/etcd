@@ -17,7 +17,7 @@ package etcdmain
 import (
 	"strconv"
 
-	"github.com/ozonru/etcd/embed"
+	"github.com/sydnash/etcd/embed"
 )
 
 var (

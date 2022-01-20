@@ -17,7 +17,7 @@ package command
 import (
 	"fmt"
 
-	v3 "github.com/ozonru/etcd/clientv3"
+	v3 "github.com/sydnash/etcd/clientv3"
 	"github.com/spf13/cobra"
 )
 

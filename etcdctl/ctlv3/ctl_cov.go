@@ -20,7 +20,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ozonru/etcd/etcdctl/ctlv3/command"
+	"github.com/sydnash/etcd/etcdctl/ctlv3/command"
 )
 
 func Start() {

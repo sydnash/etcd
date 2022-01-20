@@ -17,13 +17,13 @@ package etcdserver
 import (
 	"io"
 
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/pkg/pbutil"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/snap"
-	"github.com/ozonru/etcd/wal"
-	"github.com/ozonru/etcd/wal/walpb"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/pkg/pbutil"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/raft/raftpb"
+	"github.com/sydnash/etcd/snap"
+	"github.com/sydnash/etcd/wal"
+	"github.com/sydnash/etcd/wal/walpb"
 )
 
 type Storage interface {

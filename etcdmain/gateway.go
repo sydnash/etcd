@@ -21,7 +21,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/ozonru/etcd/proxy/tcpproxy"
+	"github.com/sydnash/etcd/proxy/tcpproxy"
 
 	"github.com/spf13/cobra"
 )

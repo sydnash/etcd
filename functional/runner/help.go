@@ -25,7 +25,7 @@ import (
 	"text/tabwriter"
 	"text/template"
 
-	"github.com/ozonru/etcd/version"
+	"github.com/sydnash/etcd/version"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"

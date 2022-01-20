@@ -19,11 +19,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/stats"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/raft"
-	"github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/snap"
+	"github.com/sydnash/etcd/etcdserver/stats"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/raft"
+	"github.com/sydnash/etcd/raft/raftpb"
+	"github.com/sydnash/etcd/snap"
 
 	"golang.org/x/time/rate"
 )

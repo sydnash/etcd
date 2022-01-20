@@ -19,7 +19,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/ozonru/etcd/mvcc/mvccpb"
+	"github.com/sydnash/etcd/mvcc/mvccpb"
 )
 
 var (

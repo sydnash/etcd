@@ -20,10 +20,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/api/etcdhttp"
-	"github.com/ozonru/etcd/etcdserver/api/v2http/httptypes"
-	"github.com/ozonru/etcd/etcdserver/auth"
-	"github.com/ozonru/etcd/pkg/logutil"
+	"github.com/sydnash/etcd/etcdserver/api/etcdhttp"
+	"github.com/sydnash/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/sydnash/etcd/etcdserver/auth"
+	"github.com/sydnash/etcd/pkg/logutil"
 
 	"github.com/coreos/pkg/capnslog"
 )
@@ -34,7 +34,7 @@ const (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/ozonru/etcd", "etcdserver/api/v2http")
+	plog = capnslog.NewPackageLogger("github.com/sydnash/etcd", "etcdserver/api/v2http")
 	mlog = logutil.NewMergeLogger(plog)
 )
 

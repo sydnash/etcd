@@ -27,19 +27,19 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/compactor"
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/etcdserver/api/etcdhttp"
-	"github.com/ozonru/etcd/etcdserver/api/v2http"
-	"github.com/ozonru/etcd/etcdserver/api/v2v3"
-	"github.com/ozonru/etcd/etcdserver/api/v3client"
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc"
-	"github.com/ozonru/etcd/pkg/cors"
-	"github.com/ozonru/etcd/pkg/debugutil"
-	runtimeutil "github.com/ozonru/etcd/pkg/runtime"
-	"github.com/ozonru/etcd/pkg/transport"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/rafthttp"
+	"github.com/sydnash/etcd/compactor"
+	"github.com/sydnash/etcd/etcdserver"
+	"github.com/sydnash/etcd/etcdserver/api/etcdhttp"
+	"github.com/sydnash/etcd/etcdserver/api/v2http"
+	"github.com/sydnash/etcd/etcdserver/api/v2v3"
+	"github.com/sydnash/etcd/etcdserver/api/v3client"
+	"github.com/sydnash/etcd/etcdserver/api/v3rpc"
+	"github.com/sydnash/etcd/pkg/cors"
+	"github.com/sydnash/etcd/pkg/debugutil"
+	runtimeutil "github.com/sydnash/etcd/pkg/runtime"
+	"github.com/sydnash/etcd/pkg/transport"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/rafthttp"
 
 	"github.com/coreos/pkg/capnslog"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
@@ -48,7 +48,7 @@ import (
 	"google.golang.org/grpc/keepalive"
 )
 
-var plog = capnslog.NewPackageLogger("github.com/ozonru/etcd", "embed")
+var plog = capnslog.NewPackageLogger("github.com/sydnash/etcd", "embed")
 
 const (
 	// internal fd usage includes disk usage and transport usage.
@@ -272,7 +272,7 @@ func stopServers(ctx context.Context, ss *servers) {
 
 	// do not grpc.Server.GracefulStop with TLS enabled etcd server
 	// See https://github.com/grpc/grpc-go/issues/1384#issuecomment-317124531
-	// and https://github.com/ozonru/etcd/issues/8916
+	// and https://github.com/sydnash/etcd/issues/8916
 	if ss.secure {
 		shutdownNow()
 		return

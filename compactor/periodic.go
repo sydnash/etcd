@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/mvcc"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/mvcc"
 
 	"github.com/jonboulle/clockwork"
 )

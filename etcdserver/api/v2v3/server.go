@@ -19,12 +19,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/etcdserver/api"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/etcdserver/membership"
-	"github.com/ozonru/etcd/pkg/types"
+	"github.com/sydnash/etcd/clientv3"
+	"github.com/sydnash/etcd/etcdserver"
+	"github.com/sydnash/etcd/etcdserver/api"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/etcdserver/membership"
+	"github.com/sydnash/etcd/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 )

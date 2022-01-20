@@ -15,9 +15,9 @@
 package auth
 
 import (
-	"github.com/ozonru/etcd/auth/authpb"
-	"github.com/ozonru/etcd/mvcc/backend"
-	"github.com/ozonru/etcd/pkg/adt"
+	"github.com/sydnash/etcd/auth/authpb"
+	"github.com/sydnash/etcd/mvcc/backend"
+	"github.com/sydnash/etcd/pkg/adt"
 )
 
 func getMergedPerms(tx backend.BatchTx, userName string) *unifiedRangePermissions {

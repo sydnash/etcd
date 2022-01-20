@@ -17,8 +17,8 @@ package leasing
 import (
 	"bytes"
 
-	v3 "github.com/ozonru/etcd/clientv3"
-	v3pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	v3 "github.com/sydnash/etcd/clientv3"
+	v3pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
 )
 
 func compareInt64(a, b int64) int {

@@ -19,8 +19,8 @@
 //	import (
 //		"context"
 //
-//		"github.com/ozonru/etcd/embed"
-//		"github.com/ozonru/etcd/etcdserver/api/v3client"
+//		"github.com/sydnash/etcd/embed"
+//		"github.com/sydnash/etcd/etcdserver/api/v3client"
 //	)
 //
 //	...

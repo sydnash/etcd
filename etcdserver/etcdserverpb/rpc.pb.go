@@ -10,8 +10,8 @@ import (
 	math "math"
 	math_bits "math/bits"
 
-	authpb "github.com/ozonru/etcd/auth/authpb"
-	mvccpb "github.com/ozonru/etcd/mvcc/mvccpb"
+	authpb "github.com/sydnash/etcd/auth/authpb"
+	mvccpb "github.com/sydnash/etcd/mvcc/mvccpb"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/golang/protobuf/proto"
 	_ "google.golang.org/genproto/googleapis/api/annotations"

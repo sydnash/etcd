@@ -17,7 +17,7 @@ package flags
 import (
 	"strings"
 
-	"github.com/ozonru/etcd/pkg/types"
+	"github.com/sydnash/etcd/pkg/types"
 )
 
 type URLsValue types.URLs

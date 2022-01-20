@@ -15,8 +15,8 @@
 package rafthttp
 
 import (
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/raft/raftpb"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/raft/raftpb"
 )
 
 type remote struct {

@@ -15,7 +15,7 @@
 package command
 
 import (
-	"github.com/ozonru/etcd/client"
+	"github.com/sydnash/etcd/client"
 	"github.com/urfave/cli"
 )
 

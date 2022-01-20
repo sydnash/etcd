@@ -22,10 +22,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/pkg/transport"
-	"github.com/ozonru/etcd/snapshot"
+	"github.com/sydnash/etcd/clientv3"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/pkg/transport"
+	"github.com/sydnash/etcd/snapshot"
 
 	"github.com/dustin/go-humanize"
 	"go.uber.org/zap"

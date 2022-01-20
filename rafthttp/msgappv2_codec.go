@@ -20,10 +20,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/stats"
-	"github.com/ozonru/etcd/pkg/pbutil"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/raft/raftpb"
+	"github.com/sydnash/etcd/etcdserver/stats"
+	"github.com/sydnash/etcd/pkg/pbutil"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/raft/raftpb"
 )
 
 const (

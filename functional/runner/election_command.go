@@ -19,7 +19,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ozonru/etcd/clientv3/concurrency"
+	"github.com/sydnash/etcd/clientv3/concurrency"
 
 	"github.com/spf13/cobra"
 )

@@ -22,11 +22,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/httputil"
-	pioutil "github.com/ozonru/etcd/pkg/ioutil"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/raft"
-	"github.com/ozonru/etcd/snap"
+	"github.com/sydnash/etcd/pkg/httputil"
+	pioutil "github.com/sydnash/etcd/pkg/ioutil"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/raft"
+	"github.com/sydnash/etcd/snap"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	etcdErr "github.com/ozonru/etcd/error"
+	etcdErr "github.com/sydnash/etcd/error"
 )
 
 // A watcherHub contains all subscribed watchers

@@ -23,10 +23,10 @@ import (
 	"net/http"
 	"time"
 
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/lease"
-	"github.com/ozonru/etcd/lease/leasepb"
-	"github.com/ozonru/etcd/pkg/httputil"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/lease"
+	"github.com/sydnash/etcd/lease/leasepb"
+	"github.com/sydnash/etcd/pkg/httputil"
 )
 
 var (

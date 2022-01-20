@@ -25,10 +25,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ozonru/etcd/embed"
-	"github.com/ozonru/etcd/pkg/flags"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/version"
+	"github.com/sydnash/etcd/embed"
+	"github.com/sydnash/etcd/pkg/flags"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/version"
 
 	"sigs.k8s.io/yaml"
 )

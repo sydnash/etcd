@@ -27,13 +27,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/mvcc/backend"
-	"github.com/ozonru/etcd/pkg/netutil"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/raft"
-	"github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/store"
-	"github.com/ozonru/etcd/version"
+	"github.com/sydnash/etcd/mvcc/backend"
+	"github.com/sydnash/etcd/pkg/netutil"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/raft"
+	"github.com/sydnash/etcd/raft/raftpb"
+	"github.com/sydnash/etcd/store"
+	"github.com/sydnash/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 	"github.com/prometheus/client_golang/prometheus"
@@ -398,7 +398,7 @@ func (c *RaftCluster) IsReadyToAddNewMember() bool {
 
 	if nstarted == 1 && nmembers == 2 {
 		// a case of adding a new node to 1-member cluster for restoring cluster data
-		// https://github.com/ozonru/etcd/blob/master/Documentation/v2/admin_guide.md#restoring-the-cluster
+		// https://github.com/sydnash/etcd/blob/master/Documentation/v2/admin_guide.md#restoring-the-cluster
 
 		plog.Debugf("The number of started member is 1. This cluster can accept add member request.")
 		return true

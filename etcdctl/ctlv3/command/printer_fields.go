@@ -17,9 +17,9 @@ package command
 import (
 	"fmt"
 
-	v3 "github.com/ozonru/etcd/clientv3"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	spb "github.com/ozonru/etcd/mvcc/mvccpb"
+	v3 "github.com/sydnash/etcd/clientv3"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	spb "github.com/sydnash/etcd/mvcc/mvccpb"
 )
 
 type fieldsPrinter struct{ printer }

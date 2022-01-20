@@ -18,16 +18,16 @@ package v3rpc
 import (
 	"context"
 
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/pkg/adt"
+	"github.com/sydnash/etcd/etcdserver"
+	"github.com/sydnash/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/pkg/adt"
 
 	"github.com/coreos/pkg/capnslog"
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/ozonru/etcd", "etcdserver/api/v3rpc")
+	plog = capnslog.NewPackageLogger("github.com/sydnash/etcd", "etcdserver/api/v3rpc")
 )
 
 type kvServer struct {

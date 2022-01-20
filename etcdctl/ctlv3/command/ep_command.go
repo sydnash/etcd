@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	v3 "github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/ozonru/etcd/pkg/flags"
+	v3 "github.com/sydnash/etcd/clientv3"
+	"github.com/sydnash/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/sydnash/etcd/pkg/flags"
 
 	"github.com/spf13/cobra"
 )

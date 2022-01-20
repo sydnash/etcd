@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"os"
 
-	v3 "github.com/ozonru/etcd/clientv3"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	mvccpb "github.com/ozonru/etcd/mvcc/mvccpb"
+	v3 "github.com/sydnash/etcd/clientv3"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	mvccpb "github.com/sydnash/etcd/mvcc/mvccpb"
 )
 
 type pbPrinter struct{ printer }

@@ -26,18 +26,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ozonru/etcd/discovery"
-	"github.com/ozonru/etcd/embed"
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/etcdserver/api/etcdhttp"
-	"github.com/ozonru/etcd/pkg/cors"
-	"github.com/ozonru/etcd/pkg/fileutil"
-	pkgioutil "github.com/ozonru/etcd/pkg/ioutil"
-	"github.com/ozonru/etcd/pkg/osutil"
-	"github.com/ozonru/etcd/pkg/transport"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/proxy/httpproxy"
-	"github.com/ozonru/etcd/version"
+	"github.com/sydnash/etcd/discovery"
+	"github.com/sydnash/etcd/embed"
+	"github.com/sydnash/etcd/etcdserver"
+	"github.com/sydnash/etcd/etcdserver/api/etcdhttp"
+	"github.com/sydnash/etcd/pkg/cors"
+	"github.com/sydnash/etcd/pkg/fileutil"
+	pkgioutil "github.com/sydnash/etcd/pkg/ioutil"
+	"github.com/sydnash/etcd/pkg/osutil"
+	"github.com/sydnash/etcd/pkg/transport"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/proxy/httpproxy"
+	"github.com/sydnash/etcd/version"
 
 	"github.com/coreos/pkg/capnslog"
 	"google.golang.org/grpc"
@@ -45,7 +45,7 @@ import (
 
 type dirType string
 
-var plog = capnslog.NewPackageLogger("github.com/ozonru/etcd", "etcdmain")
+var plog = capnslog.NewPackageLogger("github.com/sydnash/etcd", "etcdmain")
 
 var (
 	dirMember = dirType("member")

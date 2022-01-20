@@ -21,7 +21,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/ozonru/etcd/pkg/transport"
+	"github.com/sydnash/etcd/pkg/transport"
 )
 
 // bridge creates a unix socket bridge to another unix socket, making it possible

@@ -21,9 +21,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/ozonru/etcd/pkg/crc"
-	"github.com/ozonru/etcd/pkg/ioutil"
-	"github.com/ozonru/etcd/wal/walpb"
+	"github.com/sydnash/etcd/pkg/crc"
+	"github.com/sydnash/etcd/pkg/ioutil"
+	"github.com/sydnash/etcd/wal/walpb"
 )
 
 // walPageBytes is the alignment for flushing records to the backing Writer.

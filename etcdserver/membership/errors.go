@@ -17,7 +17,7 @@ package membership
 import (
 	"errors"
 
-	etcdErr "github.com/ozonru/etcd/error"
+	etcdErr "github.com/sydnash/etcd/error"
 )
 
 var (

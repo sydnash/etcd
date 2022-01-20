@@ -18,7 +18,7 @@ package stats
 import "github.com/coreos/pkg/capnslog"
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/ozonru/etcd", "etcdserver/stats")
+	plog = capnslog.NewPackageLogger("github.com/sydnash/etcd", "etcdserver/stats")
 )
 
 type Stats interface {

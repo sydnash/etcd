@@ -23,7 +23,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/fileutil"
+	"github.com/sydnash/etcd/pkg/fileutil"
 )
 
 var ErrNoDBSnapshot = errors.New("snap: snapshot file doesn't exist")

@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/types"
+	"github.com/sydnash/etcd/pkg/types"
 )
 
 type failureType struct {

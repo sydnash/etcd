@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/api/etcdhttp"
+	"github.com/sydnash/etcd/etcdserver/api/etcdhttp"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

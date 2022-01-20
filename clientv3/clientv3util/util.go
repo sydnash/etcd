@@ -16,7 +16,7 @@
 package clientv3util
 
 import (
-	"github.com/ozonru/etcd/clientv3"
+	"github.com/sydnash/etcd/clientv3"
 )
 
 // KeyExists returns a comparison operation that evaluates to true iff the given

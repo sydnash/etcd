@@ -24,11 +24,11 @@ import (
 	"strings"
 	"time"
 
-	pioutil "github.com/ozonru/etcd/pkg/ioutil"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/snap"
-	"github.com/ozonru/etcd/version"
+	pioutil "github.com/sydnash/etcd/pkg/ioutil"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/raft/raftpb"
+	"github.com/sydnash/etcd/snap"
+	"github.com/sydnash/etcd/version"
 )
 
 const (

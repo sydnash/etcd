@@ -18,15 +18,15 @@ package alarm
 import (
 	"sync"
 
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/mvcc/backend"
-	"github.com/ozonru/etcd/pkg/types"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/mvcc/backend"
+	"github.com/sydnash/etcd/pkg/types"
 	"github.com/coreos/pkg/capnslog"
 )
 
 var (
 	alarmBucketName = []byte("alarm")
-	plog            = capnslog.NewPackageLogger("github.com/ozonru/etcd", "alarm")
+	plog            = capnslog.NewPackageLogger("github.com/sydnash/etcd", "alarm")
 )
 
 type BackendGetter interface {

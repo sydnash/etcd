@@ -22,10 +22,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/clientv3/mirror"
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/ozonru/etcd/mvcc/mvccpb"
+	"github.com/sydnash/etcd/clientv3"
+	"github.com/sydnash/etcd/clientv3/mirror"
+	"github.com/sydnash/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/sydnash/etcd/mvcc/mvccpb"
 
 	"github.com/spf13/cobra"
 )

@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"strings"
 
-	v3 "github.com/ozonru/etcd/clientv3"
+	v3 "github.com/sydnash/etcd/clientv3"
 	"github.com/dustin/go-humanize"
 
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
 )
 
 type printer interface {

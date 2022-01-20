@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/raft"
-	"github.com/ozonru/etcd/raft/raftpb"
+	"github.com/sydnash/etcd/raft"
+	"github.com/sydnash/etcd/raft/raftpb"
 )
 
 type node struct {

@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3"
+	"github.com/sydnash/etcd/clientv3"
 )
 
 // mustWaitPinReady waits up to 3-second until connection is up (pin endpoint).

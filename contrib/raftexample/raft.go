@@ -24,15 +24,15 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/stats"
-	"github.com/ozonru/etcd/pkg/fileutil"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/raft"
-	"github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/rafthttp"
-	"github.com/ozonru/etcd/snap"
-	"github.com/ozonru/etcd/wal"
-	"github.com/ozonru/etcd/wal/walpb"
+	"github.com/sydnash/etcd/etcdserver/stats"
+	"github.com/sydnash/etcd/pkg/fileutil"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/raft"
+	"github.com/sydnash/etcd/raft/raftpb"
+	"github.com/sydnash/etcd/rafthttp"
+	"github.com/sydnash/etcd/snap"
+	"github.com/sydnash/etcd/wal"
+	"github.com/sydnash/etcd/wal/walpb"
 )
 
 // A key-value stream backed by raft

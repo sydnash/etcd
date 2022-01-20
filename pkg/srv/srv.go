@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/ozonru/etcd/pkg/types"
+	"github.com/sydnash/etcd/pkg/types"
 )
 
 var (

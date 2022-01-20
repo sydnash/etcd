@@ -17,10 +17,10 @@
 package integration
 
 import (
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/etcdserver/api/v3election/v3electionpb"
-	"github.com/ozonru/etcd/etcdserver/api/v3lock/v3lockpb"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/clientv3"
+	"github.com/sydnash/etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/sydnash/etcd/etcdserver/api/v3lock/v3lockpb"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
 )
 
 func toGRPC(c *clientv3.Client) grpcAPI {

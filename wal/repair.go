@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/fileutil"
-	"github.com/ozonru/etcd/wal/walpb"
+	"github.com/sydnash/etcd/pkg/fileutil"
+	"github.com/sydnash/etcd/wal/walpb"
 )
 
 // Repair tries to repair ErrUnexpectedEOF in the

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ozonru/etcd/client"
+	"github.com/sydnash/etcd/client"
 )
 
 const (

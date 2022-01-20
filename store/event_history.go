@@ -20,7 +20,7 @@ import (
 	"strings"
 	"sync"
 
-	etcdErr "github.com/ozonru/etcd/error"
+	etcdErr "github.com/sydnash/etcd/error"
 )
 
 type EventHistory struct {

@@ -17,7 +17,7 @@ package embed
 import (
 	"path/filepath"
 
-	"github.com/ozonru/etcd/wal"
+	"github.com/sydnash/etcd/wal"
 )
 
 func isMemberInitialized(cfg *Config) bool {

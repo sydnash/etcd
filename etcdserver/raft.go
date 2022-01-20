@@ -22,16 +22,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/etcdserver/membership"
-	"github.com/ozonru/etcd/pkg/contention"
-	"github.com/ozonru/etcd/pkg/pbutil"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/raft"
-	"github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/rafthttp"
-	"github.com/ozonru/etcd/wal"
-	"github.com/ozonru/etcd/wal/walpb"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/etcdserver/membership"
+	"github.com/sydnash/etcd/pkg/contention"
+	"github.com/sydnash/etcd/pkg/pbutil"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/raft"
+	"github.com/sydnash/etcd/raft/raftpb"
+	"github.com/sydnash/etcd/rafthttp"
+	"github.com/sydnash/etcd/wal"
+	"github.com/sydnash/etcd/wal/walpb"
 	"github.com/coreos/pkg/capnslog"
 )
 
@@ -63,7 +63,7 @@ var (
 )
 
 func init() {
-	raft.SetLogger(capnslog.NewPackageLogger("github.com/ozonru/etcd", "raft"))
+	raft.SetLogger(capnslog.NewPackageLogger("github.com/sydnash/etcd", "raft"))
 	expvar.Publish("raft.status", expvar.Func(func() interface{} {
 		raftStatusMu.Lock()
 		defer raftStatusMu.Unlock()

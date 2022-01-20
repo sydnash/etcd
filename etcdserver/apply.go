@@ -20,12 +20,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ozonru/etcd/auth"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/lease"
-	"github.com/ozonru/etcd/mvcc"
-	"github.com/ozonru/etcd/mvcc/mvccpb"
-	"github.com/ozonru/etcd/pkg/types"
+	"github.com/sydnash/etcd/auth"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/lease"
+	"github.com/sydnash/etcd/mvcc"
+	"github.com/sydnash/etcd/mvcc/mvccpb"
+	"github.com/sydnash/etcd/pkg/types"
 
 	"github.com/gogo/protobuf/proto"
 )

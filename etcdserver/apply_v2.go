@@ -19,10 +19,10 @@ import (
 	"path"
 	"time"
 
-	"github.com/ozonru/etcd/etcdserver/api"
-	"github.com/ozonru/etcd/etcdserver/membership"
-	"github.com/ozonru/etcd/pkg/pbutil"
-	"github.com/ozonru/etcd/store"
+	"github.com/sydnash/etcd/etcdserver/api"
+	"github.com/sydnash/etcd/etcdserver/membership"
+	"github.com/sydnash/etcd/pkg/pbutil"
+	"github.com/sydnash/etcd/store"
 	"github.com/coreos/go-semver/semver"
 )
 

@@ -28,9 +28,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/functional/rpcpb"
-	"github.com/ozonru/etcd/pkg/debugutil"
-	"github.com/ozonru/etcd/pkg/fileutil"
+	"github.com/sydnash/etcd/functional/rpcpb"
+	"github.com/sydnash/etcd/pkg/debugutil"
+	"github.com/sydnash/etcd/pkg/fileutil"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.uber.org/zap"
@@ -591,7 +591,7 @@ func (clus *Cluster) WaitHealth() error {
 	// wait 60s to check cluster health.
 	// TODO: set it to a reasonable value. It is set that high because
 	// follower may use long time to catch up the leader when reboot under
-	// reasonable workload (https://github.com/ozonru/etcd/issues/2698)
+	// reasonable workload (https://github.com/sydnash/etcd/issues/2698)
 	for i := 0; i < 60; i++ {
 		for _, m := range clus.Members {
 			if err = m.WriteHealthKey(); err != nil {

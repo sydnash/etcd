@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/transport"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/version"
+	"github.com/sydnash/etcd/pkg/transport"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/version"
 	"github.com/coreos/go-semver/semver"
 )
 

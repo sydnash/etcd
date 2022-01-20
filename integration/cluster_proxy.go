@@ -19,10 +19,10 @@ package integration
 import (
 	"sync"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/clientv3/namespace"
-	"github.com/ozonru/etcd/proxy/grpcproxy"
-	"github.com/ozonru/etcd/proxy/grpcproxy/adapter"
+	"github.com/sydnash/etcd/clientv3"
+	"github.com/sydnash/etcd/clientv3/namespace"
+	"github.com/sydnash/etcd/proxy/grpcproxy"
+	"github.com/sydnash/etcd/proxy/grpcproxy/adapter"
 )
 
 var (

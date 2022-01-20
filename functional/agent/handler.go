@@ -25,9 +25,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ozonru/etcd/functional/rpcpb"
-	"github.com/ozonru/etcd/pkg/fileutil"
-	"github.com/ozonru/etcd/pkg/proxy"
+	"github.com/sydnash/etcd/functional/rpcpb"
+	"github.com/sydnash/etcd/pkg/fileutil"
+	"github.com/sydnash/etcd/pkg/proxy"
 
 	"go.uber.org/zap"
 )

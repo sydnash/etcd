@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os/exec"
 
-	"github.com/ozonru/etcd/functional/rpcpb"
+	"github.com/sydnash/etcd/functional/rpcpb"
 )
 
 type caseExternal struct {

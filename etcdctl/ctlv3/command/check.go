@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	v3 "github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/pkg/report"
+	v3 "github.com/sydnash/etcd/clientv3"
+	"github.com/sydnash/etcd/pkg/report"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"

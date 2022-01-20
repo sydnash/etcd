@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/store"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/store"
 )
 
 type RequestV2 pb.Request

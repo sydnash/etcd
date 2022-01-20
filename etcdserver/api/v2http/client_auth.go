@@ -20,9 +20,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/ozonru/etcd/etcdserver/api"
-	"github.com/ozonru/etcd/etcdserver/api/v2http/httptypes"
-	"github.com/ozonru/etcd/etcdserver/auth"
+	"github.com/sydnash/etcd/etcdserver/api"
+	"github.com/sydnash/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/sydnash/etcd/etcdserver/auth"
 )
 
 type authHandler struct {

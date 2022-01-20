@@ -26,14 +26,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ozonru/etcd/compactor"
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/pkg/cors"
-	"github.com/ozonru/etcd/pkg/netutil"
-	"github.com/ozonru/etcd/pkg/srv"
-	"github.com/ozonru/etcd/pkg/tlsutil"
-	"github.com/ozonru/etcd/pkg/transport"
-	"github.com/ozonru/etcd/pkg/types"
+	"github.com/sydnash/etcd/compactor"
+	"github.com/sydnash/etcd/etcdserver"
+	"github.com/sydnash/etcd/pkg/cors"
+	"github.com/sydnash/etcd/pkg/netutil"
+	"github.com/sydnash/etcd/pkg/srv"
+	"github.com/sydnash/etcd/pkg/tlsutil"
+	"github.com/sydnash/etcd/pkg/transport"
+	"github.com/sydnash/etcd/pkg/types"
 
 	"github.com/coreos/pkg/capnslog"
 	"google.golang.org/grpc"
@@ -141,7 +141,7 @@ type Config struct {
 	//
 	// If single-node, it advances ticks regardless.
 	//
-	// See https://github.com/ozonru/etcd/issues/9333 for more detail.
+	// See https://github.com/sydnash/etcd/issues/9333 for more detail.
 	InitialElectionTickAdvance bool `json:"initial-election-tick-advance"`
 
 	QuotaBackendBytes int64 `json:"quota-backend-bytes"`
@@ -319,7 +319,7 @@ func (cfg *Config) SetupLogging() {
 		grpclog.SetLoggerV2(grpclog.NewLoggerV2(ioutil.Discard, os.Stderr, os.Stderr))
 	}
 	if cfg.LogPkgLevels != "" {
-		repoLog := capnslog.MustRepoLogger("github.com/ozonru/etcd")
+		repoLog := capnslog.MustRepoLogger("github.com/sydnash/etcd")
 		settings, err := repoLog.ParseLogLevelConfig(cfg.LogPkgLevels)
 		if err != nil {
 			plog.Warningf("couldn't parse log level string: %s, continuing with default levels", err.Error())

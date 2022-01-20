@@ -19,14 +19,14 @@ import (
 	"crypto/sha256"
 	"io"
 
-	"github.com/ozonru/etcd/auth"
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/mvcc"
-	"github.com/ozonru/etcd/mvcc/backend"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/version"
+	"github.com/sydnash/etcd/auth"
+	"github.com/sydnash/etcd/etcdserver"
+	"github.com/sydnash/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/mvcc"
+	"github.com/sydnash/etcd/mvcc/backend"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/version"
 )
 
 type KVGetter interface {

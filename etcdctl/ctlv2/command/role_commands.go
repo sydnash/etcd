@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/ozonru/etcd/client"
-	"github.com/ozonru/etcd/pkg/pathutil"
+	"github.com/sydnash/etcd/client"
+	"github.com/sydnash/etcd/pkg/pathutil"
 	"github.com/urfave/cli"
 )
 

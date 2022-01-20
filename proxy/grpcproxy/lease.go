@@ -21,9 +21,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/clientv3"
+	"github.com/sydnash/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

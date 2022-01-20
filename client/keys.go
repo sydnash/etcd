@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/pathutil"
+	"github.com/sydnash/etcd/pkg/pathutil"
 )
 
 const (

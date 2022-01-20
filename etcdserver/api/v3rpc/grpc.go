@@ -18,8 +18,8 @@ import (
 	"crypto/tls"
 	"math"
 
-	"github.com/ozonru/etcd/etcdserver"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/etcdserver"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
 
 	"github.com/grpc-ecosystem/go-grpc-middleware"
 	"github.com/grpc-ecosystem/go-grpc-prometheus"

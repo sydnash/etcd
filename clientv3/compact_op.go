@@ -15,7 +15,7 @@
 package clientv3
 
 import (
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
 )
 
 // CompactOp represents a compact operation.

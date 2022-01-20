@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/fileutil"
-	"github.com/ozonru/etcd/pkg/pbutil"
-	"github.com/ozonru/etcd/raft"
-	"github.com/ozonru/etcd/raft/raftpb"
-	"github.com/ozonru/etcd/wal/walpb"
+	"github.com/sydnash/etcd/pkg/fileutil"
+	"github.com/sydnash/etcd/pkg/pbutil"
+	"github.com/sydnash/etcd/raft"
+	"github.com/sydnash/etcd/raft/raftpb"
+	"github.com/sydnash/etcd/wal/walpb"
 
 	"github.com/coreos/pkg/capnslog"
 )
@@ -53,7 +53,7 @@ var (
 	// so that tests can set a different segment size.
 	SegmentSizeBytes int64 = 64 * 1000 * 1000 // 64MB
 
-	plog = capnslog.NewPackageLogger("github.com/ozonru/etcd", "wal")
+	plog = capnslog.NewPackageLogger("github.com/sydnash/etcd", "wal")
 
 	ErrMetadataConflict = errors.New("wal: conflicting metadata found")
 	ErrFileNotFound     = errors.New("wal: file not found")

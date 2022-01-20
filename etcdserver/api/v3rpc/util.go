@@ -18,12 +18,12 @@ import (
 	"context"
 	"strings"
 
-	"github.com/ozonru/etcd/auth"
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
-	"github.com/ozonru/etcd/etcdserver/membership"
-	"github.com/ozonru/etcd/lease"
-	"github.com/ozonru/etcd/mvcc"
+	"github.com/sydnash/etcd/auth"
+	"github.com/sydnash/etcd/etcdserver"
+	"github.com/sydnash/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/sydnash/etcd/etcdserver/membership"
+	"github.com/sydnash/etcd/lease"
+	"github.com/sydnash/etcd/mvcc"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

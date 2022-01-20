@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	v3rpc "github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	mvccpb "github.com/ozonru/etcd/mvcc/mvccpb"
+	v3rpc "github.com/sydnash/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	mvccpb "github.com/sydnash/etcd/mvcc/mvccpb"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

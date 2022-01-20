@@ -21,8 +21,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/ozonru/etcd/functional/rpcpb"
-	"github.com/ozonru/etcd/pkg/proxy"
+	"github.com/sydnash/etcd/functional/rpcpb"
+	"github.com/sydnash/etcd/pkg/proxy"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

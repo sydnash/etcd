@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/netutil"
-	"github.com/ozonru/etcd/pkg/transport"
-	"github.com/ozonru/etcd/pkg/types"
+	"github.com/sydnash/etcd/pkg/netutil"
+	"github.com/sydnash/etcd/pkg/transport"
+	"github.com/sydnash/etcd/pkg/types"
 )
 
 // ServerConfig holds the configuration of etcd as taken from the command line or discovery.
@@ -76,7 +76,7 @@ type ServerConfig struct {
 	//
 	// If single-node, it advances ticks regardless.
 	//
-	// See https://github.com/ozonru/etcd/issues/9333 for more detail.
+	// See https://github.com/sydnash/etcd/issues/9333 for more detail.
 	InitialElectionTickAdvance bool
 
 	BootstrapTimeout time.Duration

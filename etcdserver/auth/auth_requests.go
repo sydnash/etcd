@@ -19,9 +19,9 @@ import (
 	"encoding/json"
 	"path"
 
-	etcderr "github.com/ozonru/etcd/error"
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/etcdserver/etcdserverpb"
+	etcderr "github.com/sydnash/etcd/error"
+	"github.com/sydnash/etcd/etcdserver"
+	"github.com/sydnash/etcd/etcdserver/etcdserverpb"
 )
 
 func (s *store) ensureAuthDirectories() error {

@@ -17,7 +17,7 @@ package tester
 import (
 	"time"
 
-	"github.com/ozonru/etcd/functional/rpcpb"
+	"github.com/sydnash/etcd/functional/rpcpb"
 
 	"go.uber.org/zap"
 )
@@ -26,7 +26,7 @@ const (
 	// Wait more when it recovers from slow network, because network layer
 	// needs extra time to propagate traffic control (tc command) change.
 	// Otherwise, we get different hash values from the previous revision.
-	// For more detail, please see https://github.com/ozonru/etcd/issues/5121.
+	// For more detail, please see https://github.com/sydnash/etcd/issues/5121.
 	waitRecover = 5 * time.Second
 )
 

@@ -17,7 +17,7 @@ package command
 import (
 	"fmt"
 
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
+	"github.com/sydnash/etcd/etcdserver/api/v3rpc/rpctypes"
 	"github.com/spf13/cobra"
 )
 

@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ozonru/etcd/pkg/fileutil"
+	"github.com/sydnash/etcd/pkg/fileutil"
 )
 
 // TODO: support separate WAL directory

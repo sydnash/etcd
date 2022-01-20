@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ozonru/etcd/pkg/fileutil"
+	"github.com/sydnash/etcd/pkg/fileutil"
 )
 
 var (

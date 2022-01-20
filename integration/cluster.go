@@ -32,24 +32,24 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ozonru/etcd/client"
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/embed"
-	"github.com/ozonru/etcd/etcdserver"
-	"github.com/ozonru/etcd/etcdserver/api/etcdhttp"
-	"github.com/ozonru/etcd/etcdserver/api/v2http"
-	"github.com/ozonru/etcd/etcdserver/api/v3client"
-	"github.com/ozonru/etcd/etcdserver/api/v3election"
-	epb "github.com/ozonru/etcd/etcdserver/api/v3election/v3electionpb"
-	"github.com/ozonru/etcd/etcdserver/api/v3lock"
-	lockpb "github.com/ozonru/etcd/etcdserver/api/v3lock/v3lockpb"
-	"github.com/ozonru/etcd/etcdserver/api/v3rpc"
-	pb "github.com/ozonru/etcd/etcdserver/etcdserverpb"
-	"github.com/ozonru/etcd/pkg/testutil"
-	"github.com/ozonru/etcd/pkg/tlsutil"
-	"github.com/ozonru/etcd/pkg/transport"
-	"github.com/ozonru/etcd/pkg/types"
-	"github.com/ozonru/etcd/rafthttp"
+	"github.com/sydnash/etcd/client"
+	"github.com/sydnash/etcd/clientv3"
+	"github.com/sydnash/etcd/embed"
+	"github.com/sydnash/etcd/etcdserver"
+	"github.com/sydnash/etcd/etcdserver/api/etcdhttp"
+	"github.com/sydnash/etcd/etcdserver/api/v2http"
+	"github.com/sydnash/etcd/etcdserver/api/v3client"
+	"github.com/sydnash/etcd/etcdserver/api/v3election"
+	epb "github.com/sydnash/etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/sydnash/etcd/etcdserver/api/v3lock"
+	lockpb "github.com/sydnash/etcd/etcdserver/api/v3lock/v3lockpb"
+	"github.com/sydnash/etcd/etcdserver/api/v3rpc"
+	pb "github.com/sydnash/etcd/etcdserver/etcdserverpb"
+	"github.com/sydnash/etcd/pkg/testutil"
+	"github.com/sydnash/etcd/pkg/tlsutil"
+	"github.com/sydnash/etcd/pkg/transport"
+	"github.com/sydnash/etcd/pkg/types"
+	"github.com/sydnash/etcd/rafthttp"
 
 	"github.com/coreos/pkg/capnslog"
 	"github.com/soheilhy/cmux"
@@ -91,7 +91,7 @@ var (
 		ClientCertAuth: true,
 	}
 
-	plog = capnslog.NewPackageLogger("github.com/ozonru/etcd", "integration")
+	plog = capnslog.NewPackageLogger("github.com/sydnash/etcd", "integration")
 )
 
 type ClusterConfig struct {

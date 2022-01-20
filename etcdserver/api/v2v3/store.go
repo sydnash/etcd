@@ -21,11 +21,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ozonru/etcd/clientv3"
-	"github.com/ozonru/etcd/clientv3/concurrency"
-	etcdErr "github.com/ozonru/etcd/error"
-	"github.com/ozonru/etcd/mvcc/mvccpb"
-	"github.com/ozonru/etcd/store"
+	"github.com/sydnash/etcd/clientv3"
+	"github.com/sydnash/etcd/clientv3/concurrency"
+	etcdErr "github.com/sydnash/etcd/error"
+	"github.com/sydnash/etcd/mvcc/mvccpb"
+	"github.com/sydnash/etcd/store"
 )
 
 // store implements the Store interface for V2 using
