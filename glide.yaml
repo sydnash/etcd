@@ -1,4 +1,4 @@
-package: github.com/ozonru/etcd
+package: github.com/sydnash/etcd
 ignore:
 - google.golang.org/appengine
 import:

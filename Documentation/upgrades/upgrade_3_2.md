@@ -31,14 +31,14 @@ Since v3.2, the default value of `--snapshot-count` has [changed from from 10,00
 Before
 
 ```go
-import "github.com/ozonru/etcd/clientv3"
+import "github.com/sydnash/etcd/clientv3"
 clientv3.SetLogger(log.New(os.Stderr, "grpc: ", 0))
 ```
 
 After
 
 ```go
-import "github.com/ozonru/etcd/clientv3"
+import "github.com/sydnash/etcd/clientv3"
 import "google.golang.org/grpc/grpclog"
 clientv3.SetLogger(grpclog.NewLoggerV2(os.Stderr, os.Stderr, os.Stderr))
 
@@ -92,8 +92,8 @@ etcdctl put foo [LARGE VALUE...]
 Or configure `embed.Config.MaxRequestBytes` field:
 
 ```go
-import "github.com/ozonru/etcd/embed"
-import "github.com/ozonru/etcd/etcdserver/api/v3rpc/rpctypes"
+import "github.com/sydnash/etcd/embed"
+import "github.com/sydnash/etcd/etcdserver/api/v3rpc/rpctypes"
 
 // limit requests to 5 MiB
 cfg := embed.NewConfig()
@@ -114,7 +114,7 @@ etcd --max-request-bytes 1048576
 ```
 
 ```go
-import "github.com/ozonru/etcd/clientv3"
+import "github.com/sydnash/etcd/clientv3"
 
 cli, _ := clientv3.New(clientv3.Config{
     Endpoints: []string{"127.0.0.1:2379"},
@@ -145,7 +145,7 @@ _, err = cli.Get(ctx, "foo", clientv3.WithPrefix())
 err.Error() == "rpc error: code = ResourceExhausted desc = grpc: received message larger than max (5240509 vs. 3145728)"
 ```
 
-**If not specified, client-side send limit defaults to 2 MiB (1.5 MiB + gRPC overhead bytes) and receive limit to `math.MaxInt32`**. Please see [clientv3 godoc](https://godoc.org/github.com/ozonru/etcd/clientv3#Config) for more detail.
+**If not specified, client-side send limit defaults to 2 MiB (1.5 MiB + gRPC overhead bytes) and receive limit to `math.MaxInt32`**. Please see [clientv3 godoc](https://godoc.org/github.com/sydnash/etcd/clientv3#Config) for more detail.
 
 #### Changed raw gRPC client wrappers
 
@@ -199,14 +199,14 @@ err == nil
 Before
 
 ```go
-import "github.com/ozonru/etcd/clientv3"
+import "github.com/sydnash/etcd/clientv3"
 clientv3.NewFromConfigFile
 ```
 
 After
 
 ```go
-import clientv3yaml "github.com/ozonru/etcd/clientv3/yaml"
+import clientv3yaml "github.com/sydnash/etcd/clientv3/yaml"
 clientv3yaml.NewConfig
 ```
 

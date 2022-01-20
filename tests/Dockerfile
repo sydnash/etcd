@@ -39,5 +39,5 @@ RUN rm -rf ${GOROOT} \
   && mkdir -p ${GOPATH}/src ${GOPATH}/bin \
   && go version
 
-RUN mkdir -p ${GOPATH}/src/github.com/ozonru/etcd
-WORKDIR ${GOPATH}/src/github.com/ozonru/etcd
+RUN mkdir -p ${GOPATH}/src/github.com/sydnash/etcd
+WORKDIR ${GOPATH}/src/github.com/sydnash/etcd
